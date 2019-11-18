@@ -1,3 +1,9 @@
++++
+title = "test"
+date = "2017-12-29T12:15:02-00:00"
+categories = ["test"]
+tags = ["test"]
++++
 <h1 id="die-datenlaube-der-gartenlaube">Die Datenlaube der Gartenlaube</h1>
 <p>Mit Wikidata ‚Die Gartenlaube‘ in Wikisource strukturiert erschließen – ein Werkstattbericht</p>
 <p><em>Christian Erlinger (</em><a href="https://www.wikidata.org/wiki/Q67173261"><em>Q67173261</em></a><em>)</em></p>
