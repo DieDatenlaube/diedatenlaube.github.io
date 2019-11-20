@@ -1,6 +1,6 @@
 # Die Datenlaube Blog
 
-[logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Logo #DieDatenlaube"
+![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
 * Christian Erlinger und Jens Bemme: [Die Datenlaube der Gartenlaube - Mit Wikidata ‚Die Gartenlaube‘ in Wikisource strukturiert erschließen – ein Werkstattbericht](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube) - 18.11.2019.
