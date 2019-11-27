@@ -7,5 +7,5 @@
 
 Der Vortrag zeigt die Tools (Skripte, Abfragen, Visualisierungen), die ersten Anwendungen dieser offenen Daten und die Kommunikationswege innerhalb der aktiven örtlich ungebundenen Community für ‘Die Gartenlaube’ und ‘Die Datenlaube’. Dazu gehören bspw. Social Media-Strategien, der regelmäßige Wikisource-Informationsstand in der SLUB Dresden und neue Forschungskooperationen. Anhand von ‘Die Datenlaube’ wird gezeigt, wie mit offener Infrastruktur in Kooperationen von freier Community und Bibliothekspersonal forschungsrelevante Informationsbestände kuratiert, erstellt und gepflegt werden können: vgl. [diedatenlaube.github.io](https://diedatenlaube.github.io).
 
-<p>Veröffentlicht und eingereicht: 27.11.2019/p>
+<p>Veröffentlicht und eingereicht: 27.11.2019</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
