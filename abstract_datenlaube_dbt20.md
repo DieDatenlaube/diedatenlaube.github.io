@@ -1,5 +1,5 @@
 # Die Datenlaube: neues Wissen und Daten aus alten Texten – mit Wikisource, Wikidata und mit Commons
-## Abstract eingereicht für den 109. Deutschen Bibliothek*tag 2020, Hannover
+## Abstract eingereicht für den [109. Deutschen Bibliothek*tag 2020, Hannover](https://bibliothekartag2020.de/)
 
 ‘Die Datenlaube’ ist ein Citizen Science-Projekt für offene Kulturdaten. Seit 2008 transkribiert eine wachsende Gemeinschaft in Wikisource ‘[Die Gartenlaube](https://de.wikisource.org/wiki/Die_Gartenlaube)’, d.h. insgesamt circa 18.500 Artikel der ersten deutschen Massenblatts seit 1853 bis 1899. Dieses Großprojekt steht beispielhaft für die Potentiale ehrenamtlichen Engagements für bibliothekarische Tätigkeiten in Bezug auf Produkte der Massendigitalisierung: Scans, Volltexte, Transkriptionen – und deren Benutzung. Seit Anfang 2019 erfolgt die Erschließung deutscher Wikisource-Dokumente systematisch und offen in Wikidata.
 
