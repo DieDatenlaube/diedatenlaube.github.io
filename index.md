@@ -3,7 +3,7 @@
 ![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
-* [Abstract für den #dbt20](abstract_datenlaube_dbt20.md) eingereicht von Jens Bemme und Christian Erlinger - 27.11.2019.
+* [Abstract für den #bibtag20](abstract_datenlaube_dbt20.md) eingereicht von Jens Bemme und Christian Erlinger - 27.11.2019.
 * Christian Erlinger und Jens Bemme: [Die Datenlaube der Gartenlaube - Mit Wikidata ‚Die Gartenlaube‘ in Wikisource strukturiert erschließen – ein Werkstattbericht](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube) - 18.11.2019.
 
 ## Scripts
