@@ -44,7 +44,9 @@ SELECT DISTINCT ?Die_Gartenlaube ?Die_GartenlaubeLabel ?zentrales_Thema ?zentral
 Für die Schlagwortanalyse werden zwei Suchanfragen miteinander kombiniert: Einmal wird in den Artikel nach jenen Schlagwörtern gesucht, die als "Aspekt von" Weihnachten (z.B. Weihnachtsmusik) verlinkt sind und zusätzlich wird nach allen Begriffen, die in der direkten taxonomischen Folge des Begriffes Weihnachten auffindbar sind, gefiltert. 
 Gut zu sehen ist, dass es auch noch einige weihnachtliche Beiträge gibt, die eine "Sacherschließung" benötigen. Ein kleine Weihnachtsgeschenk für #DieDatenlaube wäre: ein Schlagwort in einem Artikel-Item in Wikidata zu verlinken. Vielleicht finden sich sogar noch detaillierter beschreibende Begrifflichkeiten um die Vielfalt der im weihnachtlichen Kontext verwendeten Termini zu vergrößern. [BubbleChart]
 
-## Wunschzettel 
-* *Partizipation* Hilfe für Die Datenlaube https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/: [Schlagworte] oder [Genre] identifizieren und ergänzen.
-* neue Ideen zur Datenqualität, weiteren Vernetzungen der Artikel und ihrer Datenobjekte, zu Abfragen und Visualisierungen beitragen oder diese und andere bearbeiten - hierfür verwenden wir jetzt ein Ticketsystem. die [Issues](https://github.com/DieDatenlaube/DieDatenlaube/issues) des Datenlaube GitHub-Repositories.
+## Unser Wunschzettel 
+* Hilfe für Die Datenlaube https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/: [Schlagworte] oder [Genre] identifizieren und ergänzen.
+* neue Ideen für die Datenqualität, weitere Vernetzungen der Artikel und ihrer Datenobjekte, Beiträge zu neuen und alten Abfragen [vgl. https://de.wikisource.org/wiki/Wikisource:Wikidata#Die_Gartenlaube] und deren Visualisierungen 
+* Tickets für unser Ticketsystem, und die Bearbeitung offener Aufgaben: vgl. die [Issues](https://github.com/DieDatenlaube/DieDatenlaube/issues) des Datenlaube GitHub-Repositories.
+* neue Open Edudational Ressources auf Basis der Gartenlaube-Texte und Queries, z.B. aus der Uni Leipzig https://de.wikisource.org/wiki/Wikisource:OER 
 
