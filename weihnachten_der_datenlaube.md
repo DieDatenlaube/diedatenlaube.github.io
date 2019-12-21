@@ -51,7 +51,7 @@ Wir sind also nicht ganz wunschlos. Die Arbeit an der Datenlaube hat gerade erst
 * neue Ideen für die Datenqualität, weitere Vernetzungen der Artikel und ihrer Datenobjekte, Beiträge zu neuen und alten [vgl. <a href="https://de.wikisource.org/wiki/Wikisource:Wikidata#Die_Gartenlaube" target="_blank">Abfragen</a>] und deren Visualisierungen.
 * Tickets für unser Ticketsystem, und die Bearbeitung offener Aufgaben: vgl. die <a href="https://github.com/DieDatenlaube/DieDatenlaube/issues" target="_blank"><em>Issues</em></a> im Datenlaube-GitHub-Repository.
 * Neue Open Edudational Ressources auf Basis der Gartenlaube-Texte und Queries, <a href="https://de.wikisource.org/wiki/Wikisource:OER" target="_blank">z.B. aus der Uni Leipzig</a>.
-* <em>Bunt ist schön, Schwarz/weiß ist dramatisch</em>, sagen Fotografen. Trotzdem diese Frage: Wer coloriert bitte <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.xcf" target="_blank">unser Logo</a>?
+* <em>Bunt ist schön, Schwarz/weiß ist dramatisch</em>, sagen Fotografen. Trotzdem die Frage: Wer coloriert bitte <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.xcf" target="_blank">unser Logo</a>?
 * Die Datenlaube möge als Blaupause helfen auch die anderen Textcorpora in Wikisource mittels Wikidata noch besser zugänglich und benutzbar zu machen. Das ist unser Lesetipp für die Feiertage: <a href="https://space.wmflabs.org/2019/12/07/how-can-structured-data-on-commons-wikidata-and-wikisource-walk-hand-in-hand-a-pilot-project-with-punjabi-qisse/"><em>How can Structured Data on Commons, Wikidata, and Wikisource walk hand in hand? A pilot project with Punjabi Qisse</em></a>.
 
 Frohes Fest!
