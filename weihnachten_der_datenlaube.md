@@ -41,8 +41,8 @@ SELECT DISTINCT ?Die_Gartenlaube ?Die_GartenlaubeLabel ?zentrales_Thema ?zentral
 }
 ```
 
-Für die Schlagwortanalyse kombinieren wir hier zwei Suchanfragen: Einmal wird in den Metadaten der bereits erschlossenen Gartenlaube-Artikel von 1853 bis 1899 nach jenen Schlagwörtern gesucht, die als "Aspekt von" Weihnachten (z.B. Weihnachtsmusik) verlinkt sind und zusätzlich wird nach allen Begriffen, die in der direkten taxonomischen Folge des Begriffes Weihnachten auffindbar sind, gefiltert. 
-Gut zu sehen ist, dass es auch noch einige Weihnachtsbeiträge gibt, die eine "Sacherschließung" benötigen: mit Schlagworten, die den Textinhalt gut beschreiben. Ein schönes Weihnachtsgeschenk für #DieDatenlaube wäre also: ein paar Schlagworte in Artikel-Items in Wikidata verlinken (<em>main subject</em>). Vielleicht finden sich sogar noch detaillierter beschreibende Begrifflichkeiten, um die Vielfalt der im weihnachtlichen Kontext verwendeten Termini noch zu vergrößern!? Wir nennen das <a href="https://w.wiki/3Rj" target="_blank"><em>Bubble Chart</em> aller vergebenen Schlagworte</a> manchmal auch <a href="https://twitter.com/hashtag/Baumscheibendiagramm" target="_blank">Baumscheibendiagramm</a>.
+Für die Schlagwortanalyse kombinieren wir hier in Wikidata zwei Suchanfragen: Einmal wird in den Metadaten der bereits erschlossenen Gartenlaube-Artikel von 1853 bis 1899 nach jenen Schlagwörtern gesucht, die als "Aspekt von" Weihnachten (z.B. Weihnachtsmusik) verlinkt sind und zusätzlich wird nach allen Begriffen, die in der direkten taxonomischen Folge des Begriffes Weihnachten auffindbar sind, gefiltert. 
+Gut zu sehen ist, dass noch einige Weihnachtsbeiträge eine "Sacherschließung" benötigen: mit Schlagworten, die den Inhalt der Texte gut beschreiben. Ein nützliches Weihnachtsgeschenk für #DieDatenlaube wäre also, ein paar Schlagworte in Artikel-Items in Wikidata zu verlinken (<em>main subject</em>). Vielleicht finden sich sogar noch präziser beschreibende Begriffe, um die Vielfalt der im weihnachtlichen Kontext verwendeten Termini weiter zu vergrößern!? Wir nennen das <a href="https://w.wiki/3Rj" target="_blank"><em>Bubble Chart</em> aller vergebenen Schlagworte</a> in Tweets auch <a href="https://twitter.com/hashtag/Baumscheibendiagramm" target="_blank">Baumscheibendiagramm</a>.
 
 Wir sind also nicht ganz wunschlos. Die Arbeit an der Datenlaube hat gerade erst begonnen (2019). Die Arbeiten an der <a href="https://de.wikisource.org/wiki/Die_Gartenlaube" target="_blank">Gartenlaube in Wikisource</a> laufen schon ein paar Jahre. Sie sind für uns die Basis. Allen, die hier miteifern, wünschen wir: Schöne Bescherung!  
 
@@ -56,4 +56,4 @@ Wir sind also nicht ganz wunschlos. Die Arbeit an der Datenlaube hat gerade erst
 
 Frohes Fest!
 
-wünschen Christian und Jens
+wünscht das Team ["<em>#DieDatenlaube</em>"](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
