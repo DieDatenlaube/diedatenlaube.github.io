@@ -47,8 +47,8 @@ Gut zu sehen ist, dass noch einige Weihnachtsbeiträge eine "Sacherschließung" 
 Ganz wunschlos sind wir also nicht. Die Arbeit an der Datenlaube hat gerade erst begonnen (2019). Die Arbeiten an der <a href="https://de.wikisource.org/wiki/Die_Gartenlaube" target="_blank">Gartenlaube in Wikisource</a> laufen schon ein paar Jahre. Sie sind für uns die Basis. Allen, die hier miteifern, wünschen wir: Schöne Bescherung!  
 
 ## Unser Wunschzettel 
-* Hilfe für <a href="https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/" target="_blank"><em>Die Datenlaube</em></a>: [Schlagworte] oder [Genre] identifizieren und ergänzen.
-* Neue Ideen für die Datenqualität, weitere Vernetzungen der Artikel und ihrer Datenobjekte, Beiträge zu neuen und alten [vgl. <a href="https://de.wikisource.org/wiki/Wikisource:Wikidata#Die_Gartenlaube" target="_blank">Abfragen</a>] und deren Visualisierungen.
+* Hilfe für <a href="https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/" target="_blank"><em>Die Datenlaube</em></a>: [Schlagworte] oder [Genre] identifizieren und in den Artikel-Items ergänzen.
+* Neue Ideen für die Datenqualität, weitere Vernetzungen der Artikel und ihrer Datenobjekte, Beiträge zu neuen und alten <a href="https://de.wikisource.org/wiki/Wikisource:Wikidata#Die_Gartenlaube" target="_blank">Abfragen</a> und deren Visualisierungen.
 * Tickets für unser Ticketsystem und deren Bearbeitung: vgl. die <a href="https://github.com/DieDatenlaube/DieDatenlaube/issues" target="_blank"><em>Issues</em></a> im Datenlaube-GitHub-Repository.
 * Neue Open Edudational Ressources auf Basis der Gartenlaube-Texte und Queries, <a href="https://de.wikisource.org/wiki/Wikisource:OER" target="_blank">z.B. aus der Uni Leipzig</a>.
 * <em>Bunt ist schön, schwarz/weiß ist dramatisch</em>, lehren einen Fotografen. Trotzdem hier die Frage: Wer coloriert bitte <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.xcf" target="_blank">unser Logo</a>?!
@@ -56,4 +56,4 @@ Ganz wunschlos sind wir also nicht. Die Arbeit an der Datenlaube hat gerade erst
 
 Frohes Fest!
 
-wünscht das Team ["<em>#DieDatenlaube</em>"](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
+wünscht das Team [<em>#DieDatenlaube</em>](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
