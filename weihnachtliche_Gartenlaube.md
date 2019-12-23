@@ -51,11 +51,11 @@ Ganz wunschlos sind wir also nicht. Die Arbeit an der Datenlaube hat gerade erst
 * Neue Ideen für die Datenqualität, weitere Vernetzungen der Artikel und ihrer Datenobjekte, Beiträge zu neuen und alten <a href="https://de.wikisource.org/wiki/Wikisource:Wikidata#Die_Gartenlaube" target="_blank">Abfragen</a> und deren Visualisierungen.
 * Tickets für unser Ticketsystem und deren Bearbeitung: vgl. die <a href="https://github.com/DieDatenlaube/DieDatenlaube/issues" target="_blank"><em>Issues</em></a> im Datenlaube-GitHub-Repository.
 * Neue Open Ecudational Ressources auf Basis der Gartenlaube-Texte und Queries, z.B. von HistoDigitaLE <a href="https://de.wikisource.org/wiki/Wikisource:OER" target="_blank">aus der Uni Leipzig</a>.
-* <em>Bunt ist schön, schwarz/weiß ist dramatisch</em>, lehren einen Fotografen. Trotzdem hier die Frage: Wer coloriert bitte <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.xcf" target="_blank">unser Logo</a>?!
+* <em>Bunt ist schön, schwarz/weiß ist dramatisch!</em>, lehren einen Fotografen. Trotzdem hier die Frage: Wer coloriert bitte <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.xcf" target="_blank">unser Logo</a>?!
 * Die Datenlaube möge als Blaupause helfen auch die anderen Textcorpora in Wikisource mittels Wikidata noch besser zugänglich und benutzbar zu machen. Deshalb ist das unser Lesetipp für die Feiertage: <a href="https://space.wmflabs.org/2019/12/07/how-can-structured-data-on-commons-wikidata-and-wikisource-walk-hand-in-hand-a-pilot-project-with-punjabi-qisse/"><em>How can Structured Data on Commons, Wikidata, and Wikisource walk hand in hand? A pilot project with Punjabi Qisse</em></a>.
 
 Frohes Fest!
 
 wünscht das Team [<em>#DieDatenlaube</em>](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
-<p>Veröffentlicht und eingereicht: 22.12.2019</p>
+<p>Veröffentlicht am 22.12.2019</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
