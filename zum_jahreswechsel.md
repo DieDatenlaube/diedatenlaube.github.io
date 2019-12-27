@@ -16,7 +16,5 @@ Wir wünschen allen ein gutes neues Jahr 2020!
 
 Team [<em>#DieDatenlaube</em>](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Veröffentlicht am 22.12.2019</p>
+<p>Veröffentlicht am 27.12.2019</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
