@@ -1,6 +1,6 @@
 # "Zum neuen Jahr"
 
-Die geprägte Zeiten finden in der Gartenlaube natürlich ihren Niederschlag. Dem [Weihnachtsfest](https://diedatenlaube.github.io/weihnachtliche_Gartenlaube) folgt nahtlos der Jahreswechsel. Selbstredend bietet sich derlei Ereignis wundervoll für einen Beitrag in der Gartenlaube an. Als Auftakt für das neue Jahr wurde sehr gerne gereimt, Berichte und Erzählungen zu Traditionen des Jahreswechsels finden sich verstreut darunter:
+Die geprägten Zeiten finden in der Gartenlaube natürlich ihren Niederschlag. Dem [Weihnachtsfest](https://diedatenlaube.github.io/weihnachtliche_Gartenlaube) folgt nahtlos der Jahreswechsel. Selbstredend bietet sich derlei Ereignis wundervoll für einen Beitrag in der Gartenlaube an. Als Auftakt für das neue Jahr wurde sehr gerne gereimt, Berichte und Erzählungen zu Traditionen des Jahreswechsels finden sich verstreut darunter:
 
 <!-- w.wiki/EW$ -->
 
