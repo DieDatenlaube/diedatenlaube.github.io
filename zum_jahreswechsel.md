@@ -1,6 +1,6 @@
 # "Zum neuen Jahr"
 
-Die geprägten Zeiten finden in der Gartenlaube natürlich ihren Niederschlag. Dem [Weihnachtsfest](https://diedatenlaube.github.io/weihnachtliche_Gartenlaube) folgt nahtlos der Jahreswechsel. Selbstredend bietet sich derlei Ereignis wundervoll für einen Beitrag in der Gartenlaube an. Als Auftakt für das neue Jahr wurde sehr gerne gereimt, Berichte und Erzählungen zu Traditionen des Jahreswechsels finden sich verstreut darunter:
+Die [geprägten Zeiten](https://de.wikipedia.org/wiki/Gepr%C3%A4gte_Zeiten) fanden in der Gartenlaube natürlich einen Niederschlag. Den [Weihnachtsfesten](https://diedatenlaube.github.io/weihnachtliche_Gartenlaube) folgen geradezu nahtlos die Jahreswechsel. Selbstredend bieten sich derlei Ereignisse wundervoll an für einen Beitrag in der Gartenlaube. Als Auftakt für das neue Jahr wurde gerne gereimt; Berichte und Erzählungen zu Traditionen des Jahreswechsels finden sich verstreut darunter:
 
 <!-- w.wiki/EW$ -->
 
@@ -8,15 +8,18 @@ Die geprägten Zeiten finden in der Gartenlaube natürlich ihren Niederschlag. D
 
 ## Neujahrsvorsätze der Datenlaube
 
-Die Datenlaube selbst ist kaum ein Jahr alt aber blickt voll Ideen und Wünsche auf das neue Jahr:
+Das Projekt 'Die Datenlaube' ist kaum ein Jahr alt und blickt voll mit Ideen und Wünschen auf das nächste Jahr:
 
-* Mit [Structured Data on Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data) wollen wir dem "Illustrierten" in der Gartenlaube näher kommen
-* Wir wollen über unsere Arbeit [sprechen](abstract_datenlaube_dbt20.html) und für die Mitarbeit oder für die Umsetzung in anderen Projekten im Connex [[Wikisource+Wikidata+Commons]] motivieren
-* Weitere Artikel erschließen, Datenqualität verbessern, Nachnutzung anregen, Schlagwörter verteilen.
+* Mit [Structured Data on Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data) wollen wir dem "Illustrierten" in der Gartenlaube ein Stück auch im Digitalen näher kommen
+* Wir wollen über 'Die Datenlaube' [sprechen](abstract_datenlaube_dbt20.html) und für Mitarbeit und für die Verschränkung mit anderen Projekten im Connex [[Wikisource+Wikidata+Commons]] motivieren
+* Weiter Gartenlaube-Artikel erschließen, die Datenqualität verbessern, Nutzung und [OER](https://de.wikisource.org/wiki/Wikisource:OER) anregen, Schlagworter verteilen
 
-Wir wünschen allen ein gutes neues Jahr 2020!
+Wir wünschen allen ein gutes Neues Jahr 2020!
 
 Team [<em>#DieDatenlaube</em>](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube)
 
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 <p>Veröffentlicht am 27.12.2019</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
