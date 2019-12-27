@@ -1,7 +1,7 @@
 # O du fröhliche – weihnachtliche Gartenlaube
 
 Als "illustriertes Familienblatt" konnte sich auch <em>Die Gartenlaube</em> weihnachtlichem <a href="https://de.wikisource.org/wiki/Weihnachten#Zeitschriftenartikel" target="_blank">Content</a> nicht verschließen. Warum auch? Lyrisches neben Rezensionen für erbauliche Literatur - für die Weihnachtszeit und den familiären Gabentisch - oder Kulturgeschichtliches sowie Aufrufe zur selbstlosen Hilfe (["Weihnachtsbaum für unsere Ostsee-Deutschen"](https://de.wikisource.org/wiki/Ein_Weihnachtsbaum_f%C3%BCr_unsere_Ostsee-Deutschen)) sind rund um die "stille Zeit" in der Gartenlaube zu finden und - im Falle der Spendenaufrufe und folgenden Spendenlisten - zu studieren.
-Die Identifizierung der [Liste](https://w.wiki/EKE) weihnachtlicher Artikel funktioniert mit dem Schlagwort sowie über den Stichwortfilter "Weihnacht*" im Titelfeld.
+Die Identifizierung der [Liste](https://w.wiki/EWy) weihnachtlicher Artikel funktioniert mit dem Schlagwort sowie über den Stichwortfilter "Weihnacht*" im Titelfeld.
 
 ```
 #Query all Gartenlaube articles with a main subject Christmas or a facet or subclass of Christmas or without a subject but the string "Weihnacht" within its label
