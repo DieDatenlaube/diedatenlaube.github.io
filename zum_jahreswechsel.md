@@ -12,7 +12,7 @@ Das Projekt 'Die Datenlaube' ist kaum ein Jahr alt und blickt voller Ideen und W
 
 * Mit [Structured Data on Commons](https://commons.wikimedia.org/wiki/Commons:Structured_data) wollen wir dem "Illustrierten" in der Gartenlaube ein Stück auch im Digitalen näher kommen
 * Wir wollen über 'Die Datenlaube' [sprechen](abstract_datenlaube_dbt20.html) und für Mitarbeit und für die Verschränkung mit anderen Projekten im Connex [[Wikisource+Wikidata+Commons]] motivieren
-* Weiter Gartenlaube-Artikel erschließen, die Datenqualität verbessern, Nutzung und [OER](https://de.wikisource.org/wiki/Wikisource:OER) anregen, Schlagworter verteilen (Stand heute: nur [6972](http://w.wiki/43s) Artikeln fehlt mind. ein 'main subject')
+* Weiter Gartenlaube-Artikel erschließen, die Datenqualität verbessern, Nutzung und [OER](https://de.wikisource.org/wiki/Wikisource:OER) anregen, Schlagworter verteilen (Stand heute: nur [6959](http://w.wiki/43s) Artikeln fehlt mind. ein 'main subject')
 
 Wir wünschen allen ein gutes Neues Jahr 2020!
 
