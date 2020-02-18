@@ -48,3 +48,9 @@ GROUP BY ?Gartenlaube ?issue  ?pubyear
 </pre><a href="https://w.wiki/HU5">Try it!</a></p>
 
 <p>Die hier vorgeschlagene Vorgangsweise für eine strukturierte Erfassung von Seitenzahlen und Heftnummerierung bei geteilt erschienen Zeitschriftenartikeln ermöglicht gewisse Vorteile in der maschinellen Abfragbarkeit und Recherche. Womöglich widerspricht dies aber eine orthodoxen Anwendung bibliographischer Regelwerke, die in derartigen Fällen Aufnahmen für jeden Teil unter Verlinkung auf eine fiktive (respektive in Wikisource auch faktisch dargestellte) Einheit des Artikels vorsehen könnte. Zugegeben könnte man der hier gezeigten Variante nachteilig zuschreiben, dass (noch) nicht klar ist, dass die angegeben Seitenzahlen Teile des ganzen Artikels repräsentieren und nicht wiederholte Erscheinungen des Gesamten. Dies könnte allerdings ebenfalls durch einen spezifischen Qualifier im Seitenzahlen- bzw. Heft-Statement entsprechend ausgezeichnet werden. Man sieht auch in diesem Fall zu Fragen der formalen Erschließung in Wikidata gilt wohl „… Fortsetzung folgt.“</p>
+
+<p><em>Christian Erlinger (</em><a href="https://www.wikidata.org/wiki/Q67173261"><em>Q67173261</em></a><em>)</em></p>
+
+<p>Veröffentlicht: 02-2020, </p>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<script src="https://hypothes.is/embed.js" async></script>
