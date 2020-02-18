@@ -10,7 +10,7 @@
 <div class="figure">
 <img src="./Pictures/1000020100000264000000CD95FEAC5CFD77C72F.png" alt=" Abb. 2: Format Constraint bei Seitenzahlen mit Komma oder Semikolon (vgl. https://www.wikidata.org/wiki/Q19165369#P304)" width="612" height="205" />
 <p class="caption"><br />
-Abb. 2: Format Constraint bei Seitenzahlen mit Komma oder Semikolon (vgl. https://www.wikidata.org/wiki/Q19165369#P304)</p>
+Abb. 2: Format Constraint bei Seitenzahlen mit Komma oder Semikolon (vgl. <a href="https://www.wikidata.org/wiki/Q19165369#P304">https://www.wikidata.org/wiki/Q19165369#P304</a>)</p>
 </div>
 <p>Bei einer Angabe eines Bereiches von Heftnummern wie 1–5 ist für eine maschinenbasierte Auswertung ohne weitere Verarbeitung nicht erkennbar, dass der Artikel in den Heften mit den Nr 1, 2, 3, 4 und 5 erschienen ist. Bei gleichzeitigem Vorliegen der Seitenzahlenbereiche S. 1–4, 17–20, 33–36, 49–52, 66–69 ist es noch weniger eindeutig für eine maschinelle Auswertung erkennbar, dass beispielsweise der Seitenzahlbereich 33–36 zum Heft Nr. 3 zugehörig ist. </p>
 <p></p>
@@ -18,7 +18,7 @@ Abb. 2: Format Constraint bei Seitenzahlen mit Komma oder Semikolon (vgl. https:
 <div class="figure">
 <img src="./Pictures/10000201000003680000014896B419731CE57A25.png" alt=" Abb. 3: Seitenzahlenangaben in Wikidata (vgl. https://www.wikidata.org/wiki/Q19180471#P304)" width="642" height="241" />
 <p class="caption"><br />
-Abb. 3: Seitenzahlenangaben in Wikidata (vgl. https://www.wikidata.org/wiki/Q19180471#P304)</p>
+Abb. 3: Seitenzahlenangaben in Wikidata (vgl. <a href="https://www.wikidata.org/wiki/Q19180471#P304">https://www.wikidata.org/wiki/Q19180471#P304</a>)</p>
 </div>
 <p>Diese Angabe erlaubt nun die maschinelle Erstellung von exakten Inhaltsverzeichnissen für jedes Heft, da nun jede Heftnummer und Seitenzahl abfragbar wird. Ebenso ist die exakte Recherche nach einem spezifischen Artikel über die Heftnummer und Seitenzahl möglich, was ebenfalls bei der ursprünglichen Angabe nicht ohne weiteres möglich wäre.</p>
 <p><pre>
