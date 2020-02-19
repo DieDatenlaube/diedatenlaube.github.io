@@ -1,4 +1,4 @@
-<h1 id="in-fortsetzung-folgt.---metadaten-für-artikel-der-gartenlaube-mit-geteilter-erscheinungsweise">„...in Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise</h1>
+<h1 id="ortsetzung-folgt.---metadaten-für-artikel-der-gartenlaube-mit-geteilter-erscheinungsweise">„...Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise</h1>
 <p></p>
 <p>Die Vielfalt der in der <a href="https://de.wikipedia.org/wiki/Die_Gartenlaube">Gartenlaube</a> veröffentlichten <a href="https://de.wikisource.org/wiki/Die_Gartenlaube">Artikel</a> spiegelt sich auch in ihrer Form wieder. Kurze Miniaturen und Mitteilungen stehen neben Erzählungen und dem großen Roman. Da ein Heft aus nur relativ wenigen Seiten bestand (im Publikationsjahr 1853 in etwa ein Dutzend Blatt) und mehrere Artikel pro Ausgabe Platz finden sollten, ist es natürlich naheliegend, weshalb Artikel in Fortsetzung erschienen sind. (Abgesehen von formalen oder produktionstechnischen Überlegungen war es vielleicht auch einfach ein geschickter Einsatz um die Leserschaft bei der Stange zu halten)</p>
 <p></p>
