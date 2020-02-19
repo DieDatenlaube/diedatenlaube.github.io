@@ -51,6 +51,6 @@ GROUP BY ?Gartenlaube ?issue  ?pubyear
 
 <p><em>Christian Erlinger (</em><a href="https://www.wikidata.org/wiki/Q67173261"><em>Q67173261</em></a><em>)</em></p>
 
-<p>Veröffentlicht: 02-2020, </p>
+<p>Veröffentlicht: 19.02.2020, </p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 <script src="https://hypothes.is/embed.js" async></script>
