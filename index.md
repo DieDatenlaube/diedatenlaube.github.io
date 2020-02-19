@@ -3,6 +3,7 @@
 ![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
+* [„...Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise](fortsetzung_folgt_seitenzahlen) - 19.02.2019.
 * [Zum Jahreswechsel](zum_jahreswechsel) - 27.12.2019.
 * [O du fröhliche – weihnachtliche Gartenlaube](weihnachtliche_Gartenlaube) - 22.12.2019.
 * [Abstract für den #bibtag20](abstract_datenlaube_dbt20.md) eingereicht von Jens Bemme und Christian Erlinger - 27.11.2019.
