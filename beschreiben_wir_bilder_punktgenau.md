@@ -35,3 +35,4 @@ Your browser does not support the video tag.
 <p>&nbsp;</p>
 <p>Christian Erlinger, 12. Mai 2020</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+  <script src="https://hypothes.is/embed.js" async></script>
