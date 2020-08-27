@@ -16,7 +16,7 @@
 ## Links
 * [Die Gartenlaube@Wikisource](https://de.wikisource.org/wiki/Die_Gartenlaube)
 * [Discussion Page@Wikisource](https://de.wikisource.org/wiki/Diskussion:Die_Gartenlaube#Metadaten_in_Wikidata)
-* [#DieDatenlaube](https://twitter.com/search?q=%23DieDatenlaube&src=typeahead_click)
+* [#DieDatenlaube](https://twitter.com/hashtag/DieDatenlaube)
 * [Wikiversity: DieDatenlaube w/ DatenlaubeJam](https://de.wikiversity.org/wiki/DieDatenlaube)
 
 <script src="https://hypothes.is/embed.js" async></script>
