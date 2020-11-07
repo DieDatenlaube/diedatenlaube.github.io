@@ -1,10 +1,3 @@
-
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="UTF-8"/>
-        <title>Kepler.gl embedded map</title>
-
         <!--Uber Font-->
         <link rel="stylesheet" href="https://d1a3f4spazzrp4.cloudfront.net/kepler.gl/uber-fonts/4.0.0/superfine.css">
 
@@ -71,8 +64,6 @@
           ga('set', 'page', 'keplergl-html');
           ga('send', 'pageview');
         </script>
-      </head>
-      <body>
         <!-- We will put our React component inside this div. -->
         <div id="app">
           <!-- Kepler.gl map will be placed here-->
@@ -224,6 +215,4 @@
             }));
           }(KeplerGl, store))
         </script>
-      </body>
-    </html>
   
