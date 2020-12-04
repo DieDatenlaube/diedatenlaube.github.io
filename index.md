@@ -3,8 +3,9 @@
 ![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
-* [Neues Wissen und Daten aus alten Texten ... in Vorträgen](vorträge) - 26.09.2020
-* [Beschreiben wir Bilder punktgenau! - Structured Data on Commons und WD-Image-Positioning-Tool](beschreiben_wir_bilder_punktgenau.md) - 12.05.2020
+* [Digital Humanities Day Leipzig] (Digital Humanities Day Leipzig) - 02.12.2020.
+* [Neues Wissen und Daten aus alten Texten ... in Vorträgen](vorträge) - 26.09.2020.
+* [Beschreiben wir Bilder punktgenau! - Structured Data on Commons und WD-Image-Positioning-Tool](beschreiben_wir_bilder_punktgenau.md) - 12.05.2020.
 * [„...Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise](fortsetzung_folgt_seitenzahlen) - 19.02.2020.
 * [Zum Jahreswechsel](zum_jahreswechsel) - 27.12.2019.
 * [O du fröhliche – weihnachtliche Gartenlaube](weihnachtliche_Gartenlaube) - 22.12.2019.
