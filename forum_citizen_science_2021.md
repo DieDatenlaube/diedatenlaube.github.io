@@ -12,7 +12,7 @@
 <li> Offene Kulturdaten ermöglichen zusätzliche Reichweite, Sichtbarkeit, Wissenschaftskommunikation mit i.S.v. “Linked Open Storytelling” sowie die Wiederverwendbarkeit von Ergebnissen aus Citizen Science-Projekten wie #DieDatenlaube.</li>
 <li>Die verwendeten offenen Werkzeuge zur Pflege bieten verschiedene Möglichkeiten der Teilhabe, der Kooperation, des Austauschs und der Belohnung.</li></ul></p>
 <p></p>
-</p>Literatur</p>
+<p>Literatur</p>
 <p>
 <ul>
 <li>Die Datenlaube: <a href="https://www.wikidata.org/wiki/Q61943025">(Q61943025)</a></li>
