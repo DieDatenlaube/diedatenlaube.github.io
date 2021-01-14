@@ -3,7 +3,7 @@
 ![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
-* Postervorschlag, <em> Forum Citizen Science</em>  '21: [Open Citizen Science: Metadaten für ‚Die Bauwerke und Denkmäler der Welt‘](Open_Citizen_Science_2021.md) - 14. Januar 2021.
+* Postervorschlag, <em> Forum Citizen Science</em>  '21: [Open Citizen Science: Metadaten für ‚Die Bauwerke und Denkmäler der Welt‘](open_citizen_science_2021.md) - 14. Januar 2021.
 * [Digital Humanities Day Leipzig](digital_humanities_day_leipzig.md) - 02.12.2020.
 * [Neues Wissen und Daten aus alten Texten ... in Vorträgen](vorträge) - 26.09.2020.
 * [Beschreiben wir Bilder punktgenau! - Structured Data on Commons und WD-Image-Positioning-Tool](beschreiben_wir_bilder_punktgenau.md) - 12.05.2020.
