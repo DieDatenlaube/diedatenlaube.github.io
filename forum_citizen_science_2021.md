@@ -10,7 +10,7 @@
 <li> Verbindungen von Citizen Science und Makerkultur ermöglichen neue Projekte, in denen Crowdsourcing-Strategien und selbständige Forschung zueinander finden können.</li>
 <li> Diese neuen datenorientierten Methoden sind u.a. für die digitalen Geisteswissenschaften (Digital Humanities) relevant.</li>
 <li> Offene Kulturdaten ermöglichen zusätzliche Reichweite, Sichtbarkeit, Wissenschaftskommunikation mit i.S.v. “Linked Open Storytelling” sowie die Wiederverwendbarkeit von Ergebnissen aus Citizen Science-Projekten wie #DieDatenlaube.</li>
-<li>Die verwendeten offenen Werkzeuge zur Pflege bieten verschiedene Möglichkeiten der Teilhabe, der Kooperation, des Austauschs und der Belohnung.</li></ul></p>
+<li>Die verwendeten offenen Werkzeuge zur Datenpflege bieten verschiedene Möglichkeiten der Teilhabe, der Kooperation, des Austauschs und der Belohnung.</li></ul></p>
 <p></p>
 <p>Literatur</p>
 <p>
