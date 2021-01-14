@@ -14,4 +14,4 @@
 * Die Datenlaube: <a href="https://www.wikidata.org/wiki/Q61943025">(Q61943025)</a>
 * Open Citizen Science: <a href="https://www.wikidata.org/wiki/Q66771716">(Q66771716)</a>
 * Linked Open Storytelling: <a href="https://www.wikidata.org/wiki/Q66631860">(Q66771716)</a>
-* <a href="https://de.wikisource.org/wiki/Die_h%C3%B6chsten_Bauwerke_und_Denkm%C3%A4ler_der_Welt">Die höchsten Bauwerke und Denkmäler der Welt</a></p>
+* <a href="https://de.wikisource.org/wiki/Die_h%C3%B6chsten_Bauwerke_und_Denkm%C3%A4ler_der_Welt">Die höchsten Bauwerke und Denkmäler der Welt</a>, in: Die Gartenlaube, 1882, Heft 40, S. 662-666.</p>
