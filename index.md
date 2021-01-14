@@ -4,7 +4,7 @@
 
 ## Blogposts
 * Postervorschlag, <em> Forum Citizen Science</em>  '21: [Open Citizen Science: Metadaten für ‚Die Bauwerke und Denkmäler der Welt‘](Open_Citizen_Science_2021.md) - 14. Januar 2021.
-* [Digital Humanities Day Leipzig](Digital_Humanities_Day_Leipzig.md) - 02.12.2020.
+* [Digital Humanities Day Leipzig](digital_humanities_day_leipzig.md) - 02.12.2020.
 * [Neues Wissen und Daten aus alten Texten ... in Vorträgen](vorträge) - 26.09.2020.
 * [Beschreiben wir Bilder punktgenau! - Structured Data on Commons und WD-Image-Positioning-Tool](beschreiben_wir_bilder_punktgenau.md) - 12.05.2020.
 * [„...Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise](fortsetzung_folgt_seitenzahlen) - 19.02.2020.
