@@ -64,5 +64,4 @@ WHERE {
 <p>Um abzufragen welche Schlagwortlabels der Gartenlaube noch nicht in eine bestimmte Sprache übersetzt sind, wählt man zuerst einen Sprachcode aus dieser <a href="https://w.wiki/xuZ">Abfrage</a> aus und setzt den Code in der Abfrage nach fehlenden <a href="https://w.wiki/xv2">Schlagwort-Labels</a> ein. Und schon kann Labels „<a href="https://w.wiki/xvD">ins Boarische iwasetzn</a>“. </p>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 5. Februar 2021</p>
-<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-  <script src="https://hypothes.is/embed.js" async></script>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
