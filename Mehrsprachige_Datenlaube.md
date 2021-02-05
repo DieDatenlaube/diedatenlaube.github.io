@@ -6,19 +6,19 @@
 <figure>
 <img src="./Pictures/1000020100000350000001BBFECB95B322C7DC05.png" alt="Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch" style="" /><figcaption>Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch</figcaption>
 </figure>
-
+<p>&nbsp;</p>
 <p>Das Label von bibliographischen Items wird standardmäßig zumeist mit dem Originaltitel des vorliegenden Werkes versehen, weshalb es eher nicht zu einer Übersetzung des Titels in Zielsprachen kommt. Der Beschreibungstext hingegen erlaubt es in der jeweiligen Sprache anzuzeigen, was das vorliegende Item beschreiben möchte – beispielsweise einen (Zeitschriften)-Artikel (in deutscher Sprache) in der Zeitschrift ‚Die Gartenlaube‘ mit Publikationsjahr und Fundstelle (Heftnummer und/oder Seitenzahl). </p>
 
 <p>Gerade für das Beschreibungsfeld, das sich bei bibliographischen Datensätzen nach einem sehr stringenten Muster aufbaut, ist die Anreicherung mit weiteren Sprachen leicht möglich. Für die (nieder- und ober-)<a href="https://de.wikipedia.org/wiki/Sorbische_Sprache">sorbische Sprache</a> wurden Beschreibungstexte ergänzt. </p>
 <figure>
 <img src="./Pictures/10000201000001EA000002BC3C9110CA909D4684.png" alt="Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569" style="" /><figcaption>Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569</figcaption>
 </figure>
-
+<p>&nbsp;</p>
 <p>Auf Basis der in Abbildung 2 gezeigten Vorlage kann mittels <a href="https://w.wiki/xuw">SPARQL-Query </a>eine Grundlage für neue Beschreibungstexte in nieder- und obersorbischer Sprache abgefragt und zum Import mittels <a href="https://quickstatements.toolforge.org/">QuickStatements</a> verwendet werden. </p>
 
-<p>Die selbe Vorgehensweise gilt auch für die mehrsprachigen Beschreibungstexte der Gartenlaube-Illustrationen in Wiki Commons wie in Abbildung 3 gezeigt. </p>
+<p>Die selbe Vorgehensweise gilt auch für die mehrsprachigen Beschreibungstexte der Gartenlaube-Illustrationen in Wikimedia Commons wie in Abbildung 3 gezeigt. </p>
 <figure>
-<img src="./Pictures/1000020100000387000001B6021FA75CAFF428CA.png" alt="Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons" style="" /><figcaption>Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons</figcaption>
+<img src="./Pictures/1000020100000387000001B6021FA75CAFF428CA.png" alt="Abbildung 3: Mehrsprachige Dateibeschreibungen in Wikimedia Commons" style="" /><figcaption>Abbildung 3: Mehrsprachige Dateibeschreibungen in Wikimedia Commons</figcaption>
 </figure>
 <h2 id="mehrsprachige-sacherschließung">Mehrsprachige Sacherschließung</h2>
 <p>Beschreibungstexte sind aber mehr eine Fingerübung und bieten gerade im vorliegenden Fall einen eher überschaubaren Mehrwert. Gänzlich anders verhält es sich, wenn man die mehrsprachige Verfügbarkeit von Item-Labels und Descriptions bei verlinkten Entitäten betrachtet. Gerade die für die inhaltliche Erschließung der Artikel verwendeten Schlagworte können, wenn sie denn übersetzt sind, ermöglichen auf Basis fremdsprachiger Einstiege nach inhaltlichen Bezügen in den (deutschsprachigen) Artikeln zu recherchieren. </p>
@@ -55,13 +55,15 @@ WHERE {
 }
 </pre>
 
-<p>In Wikidata läuft Mehrsprachigkeit zentral zusammen und ermöglicht Portalen unterschiedlicher Sprach- und Kulturkreise, ob diese Millionen oder nur wenige hundert SprecherInnen aufweist, mit überschaubarem Aufwand Datenbestände anzureichern, abzufragen und somit erfahrbar zu machen.</p>
+<p>In Wikidata läuft Mehrsprachigkeit zentral zusammen und ermöglicht Wikimediaportalen unterschiedlicher Sprach- und Kulturkreise, ob diese nun Millionen oder nur wenige hundert SprecherInnen aufweisen, mit überschaubarem Aufwand Datenbestände anzureichern, abzufragen und somit erfahrbar zu machen.</p>
+
 <h2 id="ein-blick-auf-die-mehrsprachigkeit">Ein Blick auf die Mehrsprachigkeit</h2>
 <p>Zum Zeitpunkt (2020-02-05) lagen für die zur Beschreibung der Gartenlaube-Artikel verwendeten Schlagworte Labels in 424 verschiedenen Sprachen vor. Wie viele Schlagworte je Sprache dabei vorhanden sind zeigt das folgende Diagramm:</p>
 
-<p>Für 9.517 Schlagworten liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels, beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein Item vor. </p>
+<p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor.</p>
+
 <h2 id="verbessert-die-mehrsprachigkeit">Verbessert die Mehrsprachigkeit</h2>
-<p>Um abzufragen welche Schlagwortlabels der Gartenlaube noch nicht in eine bestimmte Sprache übersetzt sind, wählt man zuerst einen Sprachcode aus dieser <a href="https://w.wiki/xuZ">Abfrage</a> aus und setzt den Code in der Abfrage nach fehlenden <a href="https://w.wiki/xv2">Schlagwort-Labels</a> ein. Und schon kann Labels „<a href="https://w.wiki/xvD">ins Boarische iwasetzn</a>“. </p>
+<p>Um abzufragen welche Schlagwortlabels der Gartenlaube noch nicht in eine bestimmte Sprache übersetzt sind, wählt man zuerst einen Sprachcode aus dieser <a href="https://w.wiki/xuZ">Abfrage</a> aus und setzt den Code in der Abfrage nach fehlenden <a href="https://w.wiki/xv2">Schlagwort-Labels</a> ein. Und schon kann Labels zum Beispiel „<a href="https://w.wiki/xvD">ins Boarische iwasetzn</a>“. </p>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 5. Februar 2021</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
