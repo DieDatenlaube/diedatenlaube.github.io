@@ -3,12 +3,18 @@
 ![#DieDatenlaube Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Die_Datenlaube.xcf/640px-Die_Datenlaube.xcf.png "Die Datenlaube")
 
 ## Blogposts
+
+### 2021
 * [Mehrsprachige Datenlaube](Mehrsprachige_Datenlaube.md) - 5. Februar 2021.
 * Postervorschlag, <em> Forum Citizen Science</em>  '21: [Open Citizen Science: Metadaten für ‚Die Bauwerke und Denkmäler der Welt‘](forum_citizen_science_2021.md) - 14. Januar 2021.
+
+### 2020
 * [Digital Humanities Day Leipzig](digital_humanities_day_leipzig.md) - 02.12.2020.
 * [Neues Wissen und Daten aus alten Texten ... in Vorträgen](vorträge) - 26.09.2020.
 * [Beschreiben wir Bilder punktgenau! - Structured Data on Commons und WD-Image-Positioning-Tool](beschreiben_wir_bilder_punktgenau.md) - 12.05.2020.
 * [„...Fortsetzung folgt.“ - Metadaten für Artikel der Gartenlaube mit geteilter Erscheinungsweise](fortsetzung_folgt_seitenzahlen) - 19.02.2020.
+
+### 2019
 * [Zum Jahreswechsel](zum_jahreswechsel) - 27.12.2019.
 * [O du fröhliche – weihnachtliche Gartenlaube](weihnachtliche_Gartenlaube) - 22.12.2019.
 * [Abstract für den #bibtag20](abstract_datenlaube_dbt20.md) eingereicht von Jens Bemme und Christian Erlinger - 27.11.2019.
