@@ -15,7 +15,7 @@
 * Christian Erlinger und Jens Bemme: [Die Datenlaube der Gartenlaube - Mit Wikidata ‚Die Gartenlaube‘ in Wikisource strukturiert erschließen – ein Werkstattbericht](https://diedatenlaube.github.io/die_datenlaube_der_gartenlaube) - 18.11.2019.
 
 ## Scripts
-* Parse bibliographic metadata on Wikisource pages based on categories and build a QuickStatements-Import: [ParseWikiSource_ByCategories__GartenlaubeArtikelParser.ipynb)](https://github.com/DieDatenlaube/DieDatenlaube/blob/master/ParseWikiSource_ByCategories__GartenlaubeArtikelParser.ipynb)
+* Parse bibliographic metadata on Wikisource pages based on categories and build a QuickStatements-Import: [ParseWikiSource_ByCategories__GartenlaubeArtikelParser.ipynb](https://github.com/DieDatenlaube/DieDatenlaube/blob/master/ParseWikiSource_ByCategories__GartenlaubeArtikelParser.ipynb)
 
 ## Links
 * [Die Gartenlaube@Wikisource](https://de.wikisource.org/wiki/Die_Gartenlaube)
