@@ -55,14 +55,14 @@ WHERE {
 }
 </pre>
 
-<p>In Wikidata läuft Mehrsprachigkeit zentral zusammen und ermöglicht Wikimediaportalen unterschiedlicher Sprach- und Kulturkreise, ob diese nun Millionen oder nur wenige hundert SprecherInnen aufweisen, mit überschaubarem Aufwand Datenbestände anzureichern, abzufragen und somit erfahrbar zu machen.</p>
+<p>Wikidata bietet Mehrsprachigkeit, da potentiell jedes Datenobjekt multilinguale Aussagen enthalten kann. So können Wikimedia- und andere offene Datenportale unterschiedlicher Sprach- und Kulturkreise, mit überschaubarem Aufwand Datenbestände anreichern und abfragen, um sie multilingual erfahr- und nutzbar zu machen.</p>
 
 <h2 id="ein-blick-auf-die-mehrsprachigkeit">Ein Blick auf die Mehrsprachigkeit</h2>
 <p>Zum Zeitpunkt (2020-02-05) lagen für die zur Beschreibung der Gartenlaube-Artikel verwendeten Schlagworte Labels in 424 verschiedenen Sprachen vor. Wie viele Schlagworte je Sprache dabei vorhanden sind zeigt das folgende Diagramm:</p>
 
 <p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor.</p>
 
-<h2 id="verbessert-die-mehrsprachigkeit">Verbessert die Mehrsprachigkeit</h2>
+<h2 id="verbessert-die-mehrsprachigkeit">Verbessert die Mehrsprachigkeit!</h2>
 <p>Um abzufragen welche Schlagwortlabels der Gartenlaube noch nicht in eine bestimmte Sprache übersetzt sind, wählt man zuerst einen Sprachcode aus dieser <a href="https://w.wiki/xuZ">Abfrage</a> aus und setzt den Code in der Abfrage nach fehlenden <a href="https://w.wiki/xv2">Schlagwort-Labels</a> ein. Und schon kann Labels zum Beispiel „<a href="https://w.wiki/xvD">ins Boarische iwasetzn</a>“. </p>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 5. Februar 2021</p>
