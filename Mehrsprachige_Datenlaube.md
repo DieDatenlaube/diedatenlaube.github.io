@@ -18,7 +18,7 @@
 
 <p>Die selbe Vorgehensweise gilt auch für die mehrsprachigen Beschreibungstexte der Gartenlaube-Illustrationen in Wiki Commons wie in Abbildung 3 gezeigt. </p>
 <figure>
-<img src="./Pictures/1000020100000387000001B6021FA75CAFF428CA.png" alt="Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons" style="width:17cm;height:8.244cm" /><figcaption>Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons</figcaption>
+<img src="./Pictures/1000020100000387000001B6021FA75CAFF428CA.png" alt="Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons" style="" /><figcaption>Abbildung 3: Mehrsprachige Dateibeschreibungen in Wiki Commons</figcaption>
 </figure>
 <h2 id="mehrsprachige-sacherschließung">Mehrsprachige Sacherschließung</h2>
 <p>Beschreibungstexte sind aber mehr eine Fingerübung und bieten gerade im vorliegenden Fall einen eher überschaubaren Mehrwert. Gänzlich anders verhält es sich, wenn man die mehrsprachige Verfügbarkeit von Item-Labels und Descriptions bei verlinkten Entitäten betrachtet. Gerade die für die inhaltliche Erschließung der Artikel verwendeten Schlagworte können, wenn sie denn übersetzt sind, ermöglichen auf Basis fremdsprachiger Einstiege nach inhaltlichen Bezügen in den (deutschsprachigen) Artikeln zu recherchieren. </p>
