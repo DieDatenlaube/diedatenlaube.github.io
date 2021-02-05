@@ -4,14 +4,14 @@
 <p>Die Mehrsprachigkeit von Wikidata legt auch offen aus welchen Sprach- und Kulturkreis bestimmte Items stammen oder ihnen zuzurechnen sind. Die bibliographischen Items der Datenlaube wurden beispielsweise bislang standardmäßig dreisprachig mit Labels und Beschreibungstexten in Deutsch, Englisch und Niederländisch erfasst. (vgl. Abb. 1)</p>
 
 <figure>
-<img src="./Pictures/1000020100000350000001BBFECB95B322C7DC05.png" alt="Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch" style="width:17cm;height:8.879cm" /><figcaption>Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch</figcaption>
+<img src="./Pictures/1000020100000350000001BBFECB95B322C7DC05.png" alt="Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch" style="" /><figcaption>Abbildung 1: Labels und Descriptions von Gartenlaube-Items in deutsch, englisch, holländisch</figcaption>
 </figure>
 
 <p>Das Label von bibliographischen Items wird standardmäßig zumeist mit dem Originaltitel des vorliegenden Werkes versehen, weshalb es eher nicht zu einer Übersetzung des Titels in Zielsprachen kommt. Der Beschreibungstext hingegen erlaubt es in der jeweiligen Sprache anzuzeigen, was das vorliegende Item beschreiben möchte – beispielsweise einen (Zeitschriften)-Artikel (in deutscher Sprache) in der Zeitschrift ‚Die Gartenlaube‘ mit Publikationsjahr und Fundstelle (Heftnummer und/oder Seitenzahl). </p>
 
 <p>Gerade für das Beschreibungsfeld, das sich bei bibliographischen Datensätzen nach einem sehr stringenten Muster aufbaut, ist die Anreicherung mit weiteren Sprachen leicht möglich. Für die (nieder- und ober-)<a href="https://de.wikipedia.org/wiki/Sorbische_Sprache">sorbische Sprache</a> wurden Beschreibungstexte ergänzt. </p>
 <figure>
-<img src="./Pictures/10000201000001EA000002BC3C9110CA909D4684.png" alt="Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569" style="width:12.965cm;height:18.521cm" /><figcaption>Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569</figcaption>
+<img src="./Pictures/10000201000001EA000002BC3C9110CA909D4684.png" alt="Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569" style="" /><figcaption>Abbildung 2: Tweet als Anstoß Gartenlaube-Items in sorbischer Sprache zu beschreiben https://twitter.com/juliannyca/status/1357422861695213569</figcaption>
 </figure>
 
 <p>Auf Basis der in Abbildung 2 gezeigten Vorlage kann mittels <a href="https://w.wiki/xuw">SPARQL-Query </a>eine Grundlage für neue Beschreibungstexte in nieder- und obersorbischer Sprache abgefragt und zum Import mittels <a href="https://quickstatements.toolforge.org/">QuickStatements</a> verwendet werden. </p>
@@ -25,31 +25,35 @@
 
 <p>Um hier einen Beitrag zu leisten, kann nach Schlagworten in Gartenlaube-Artikel abgefragt werden, die in einer bestimmten Zielsprache noch kein Label besitzen, der folgende <a href="https://w.wiki/xv2">Code-Block </a>zeigt dies für die obersorbische Sprache, ausgenommen von den Schlagworten sind Personen-Items, da es hier bei den Labels abgesehen von kulturellen oder sprachlichen Erfordernissen nicht zu einer Übersetzung kommt. </p>
 
-<p>SELECT DISTINCT ?schlagwort ?schlagwortLabel ?schlagwortLangLab WHERE {</p>
-<p>  ?item wdt:P1433 wd:Q655617;</p>
-<p>    wdt:P921 ?schlagwort.</p>
-<p>  FILTER(NOT EXISTS {</p>
-<p>    ?schlagwort rdfs:label ?schlagwortLangLab.</p>
-<p>    FILTER((LANG(?schlagwortLangLab)) = "hsb") #Hier Sprachcode einbauen</p>
-<p>  })</p>
-<p>  MINUS { ?schlagwort wdt:P31 wd:Q5. }</p>
-<p>  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }</p>
-<p>}</p>
+<pre>
+SELECT DISTINCT ?schlagwort ?schlagwortLabel ?schlagwortLangLab WHERE {
+  ?item wdt:P1433 wd:Q655617;
+    wdt:P921 ?schlagwort.
+  FILTER(NOT EXISTS {
+    ?schlagwort rdfs:label ?schlagwortLangLab.
+    FILTER((LANG(?schlagwortLangLab)) = "hsb") #Hier Sprachcode einbauen
+  })
+  MINUS { ?schlagwort wdt:P31 wd:Q5. }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+</pre>
 
 <p>Datenpflege nach diesem Muster erlaubt es in Wikidata nach Artikeln der Gartenlaube zu <a href="https://w.wiki/xv7">recherchieren</a>, deren Thema „Kamjenc“ (obersorbisch für Kamenz) ist.</p>
 
-<p>SELECT ?item ?itemLabel ?schlagwortLangLab WITH { </p>
-<p>  SELECT DISTINCT ?item ?schlagwortLangLab WHERE {</p>
-<p>  ?item wdt:P1433 wd:Q655617;</p>
-<p>    wdt:P921 ?schlagwort.</p>
-<p>  ?schlagwort rdfs:label ?schlagwortLangLab.</p>
-<p>  FILTER((LANG(?schlagwortLangLab)) = "hsb")</p>
-<p> } } AS %results </p>
-<p>WHERE {</p>
-<p>  INCLUDE %results.</p>
-<p>  FILTER(CONTAINS(?schlagwortLangLab,"Kamjenc"))</p>
-<p>  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],hsb,en". }</p>
-<p>}</p>
+<pre>
+SELECT ?item ?itemLabel ?schlagwortLangLab WITH { 
+  SELECT DISTINCT ?item ?schlagwortLangLab WHERE {
+  ?item wdt:P1433 wd:Q655617;
+    wdt:P921 ?schlagwort.
+  ?schlagwort rdfs:label ?schlagwortLangLab.
+  FILTER((LANG(?schlagwortLangLab)) = "hsb")
+ } } AS %results 
+WHERE {
+  INCLUDE %results.
+  FILTER(CONTAINS(?schlagwortLangLab,"Kamjenc"))
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],hsb,en". }
+}
+</pre>
 
 <p>In Wikidata läuft Mehrsprachigkeit zentral zusammen und ermöglicht Portalen unterschiedlicher Sprach- und Kulturkreise, ob diese Millionen oder nur wenige hundert SprecherInnen aufweist, mit überschaubarem Aufwand Datenbestände anzureichern, abzufragen und somit erfahrbar zu machen.</p>
 <h2 id="ein-blick-auf-die-mehrsprachigkeit">Ein Blick auf die Mehrsprachigkeit</h2>
