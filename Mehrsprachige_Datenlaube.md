@@ -61,7 +61,7 @@ WHERE {
 <p>Zum Zeitpunkt (2020-02-05) lagen für die zur Beschreibung der Gartenlaube-Artikel verwendeten Schlagworte Labels in 424 verschiedenen Sprachen vor. Wie viele Schlagworte je Sprache dabei vorhanden sind zeigt das folgende <a href='https://w.wiki/xzw'>Diagramm</a>:</p>
 
 <figure>
-<img src="./Pictures/mul_diagramm.svg" alt="Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen." width="300px" /><figcaption>Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen. (<a href='https://w.wiki/xzv'>https://w.wiki/xzv</a>)</figcaption>
+<img src="./Pictures/mul_diagramm.png" alt="Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen." /><figcaption>Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen. (<a href='https://w.wiki/xzv'>https://w.wiki/xzv</a>)</figcaption>
 </figure>
 
 <p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor. Knapp 1.500 Items verfügen über ein obersorbisches Label und 650 über ein niedersorbisches.</p>
