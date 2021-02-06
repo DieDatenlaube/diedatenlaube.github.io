@@ -67,3 +67,4 @@ WHERE {
 <p>&nbsp;</p>
 <p>Christian Erlinger, 5. Februar 2021</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
+<p>Item dieses Artikels: <a href="https://www.wikidata.org/wiki/Q105332598">(Q105332598)</a></p>
