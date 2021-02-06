@@ -58,9 +58,15 @@ WHERE {
 <p>Wikidata bietet Mehrsprachigkeit, da potentiell jedes Datenobjekt multilinguale Aussagen enthalten kann. So können Wikimedia- und andere offene Datenportale unterschiedlicher Sprach- und Kulturkreise, mit überschaubarem Aufwand Datenbestände anreichern und abfragen, um sie multilingual erfahr- und nutzbar zu machen.</p>
 
 <h2 id="ein-blick-auf-die-mehrsprachigkeit">Ein Blick auf die Mehrsprachigkeit</h2>
-<p>Zum Zeitpunkt (2020-02-05) lagen für die zur Beschreibung der Gartenlaube-Artikel verwendeten Schlagworte Labels in 424 verschiedenen Sprachen vor. Wie viele Schlagworte je Sprache dabei vorhanden sind zeigt das folgende Diagramm:</p>
+<p>Zum Zeitpunkt (2020-02-05) lagen für die zur Beschreibung der Gartenlaube-Artikel verwendeten Schlagworte Labels in 424 verschiedenen Sprachen vor. Wie viele Schlagworte je Sprache dabei vorhanden sind zeigt das folgende <a href='https://w.wiki/xzw'>Diagramm</a>:</p>
 
-<p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor.</p>
+<figure>
+<img src="./Pictures/mul_diagramm.svg" alt="Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen." style="" /><figcaption>Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen. (<a href='https://w.wiki/xzv'>https://w.wiki/xzv</a>)</figcaption>
+</figure>
+
+<p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor. Knapp 1.500 Items verfügen über ein obersorbisches Label und 650 über ein niedersorbisches.</p>
+
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3FswLang%20(COUNT(DISTINCT%20%3Fschlagwort)%20AS%20%3FnumberOfSW)%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP1433%20wd%3AQ655617%3B%0A%20%20%20%20wdt%3AP921%20%3Fschlagwort.%0A%20%20%3Fschlagwort%20rdfs%3Alabel%20%3FswLabel.%0A%20%20BIND(LANG(%3FswLabel)%20AS%20%3FswLang)%0A%7D%0AGROUP%20BY%20%3FswLang%0AORDER%20BY%20DESC(%3FnumberOfSW)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 <h2 id="verbessert-die-mehrsprachigkeit">Verbessert die Mehrsprachigkeit!</h2>
 <p>Um abzufragen welche Schlagwortlabels der Gartenlaube noch nicht in eine bestimmte Sprache übersetzt sind, wählt man zuerst einen Sprachcode aus dieser <a href="https://w.wiki/xuZ">Abfrage</a> aus und setzt den Code in der Abfrage nach fehlenden <a href="https://w.wiki/xv2">Schlagwort-Labels</a> ein. Und schon kann Labels zum Beispiel „<a href="https://w.wiki/xvD">ins Boarische iwasetzn</a>“. </p>
