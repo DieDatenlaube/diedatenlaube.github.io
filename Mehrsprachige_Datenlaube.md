@@ -63,7 +63,7 @@ WHERE {
 <figure>
 <img src="./Pictures/100002010000060B000002E8393E65788D6A53A1.png"  alt="Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen." style=""/><figcaption>Abbildung 4: Verteilung der Labels der Gartenlaube-Schlagwörter nach den 25 häufigsten Sprachen. (<a href='https://w.wiki/xzv'>https://w.wiki/xzv</a>)</figcaption>
 </figure>
-
+<p>&nbsp;</p>
 <p>Für 9.517 Schlagworte liegen deutsche Labels vor, gefolgt von 9.392 Items mit englischen Labels. Beispielsweise liegt hingegen mit tunesisch-arabischem Label am anderen Ende der Skala nur ein einziges Item vor. Knapp 1.500 Items verfügen über ein obersorbisches Label und 650 über ein niedersorbisches.</p>
 
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#SELECT%20%3FswLang%20(COUNT(DISTINCT%20%3Fschlagwort)%20AS%20%3FnumberOfSW)%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP1433%20wd%3AQ655617%3B%0A%20%20%20%20wdt%3AP921%20%3Fschlagwort.%0A%20%20%3Fschlagwort%20rdfs%3Alabel%20%3FswLabel.%0A%20%20BIND(LANG(%3FswLabel)%20AS%20%3FswLang)%0A%7D%0AGROUP%20BY%20%3FswLang%0AORDER%20BY%20DESC(%3FnumberOfSW)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
