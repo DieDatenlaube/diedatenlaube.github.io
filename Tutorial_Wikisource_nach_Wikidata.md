@@ -41,5 +41,5 @@ Ein Wikidata-Artikel zeichnet sich durch eine Anzahl von Aussagen (statements) Ã
 
 ![alt-text](./Pictures/Die_Gartenlaube_1898_Wikidata_Linking.jpg "Link a item for Die Gartenlaube")
 <p>&nbsp;</p>
-<p>Matthias Erfurth, 5. Februar 2021</p>
+<p>Matthias Erfurth, 9. Februar 2021</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
