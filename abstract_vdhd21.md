@@ -1,5 +1,7 @@
 # Die Gartenlaube -- umfänglich offene Zeitschriftendaten im Wiki\*Versum
 
+## Abstract eingereicht als datapaper bei [vDHd21](https://vdhd2021.hypotheses.org/call-for-participation/call-for-papers)
+
 *[Die Gartenlaube](https://de.wikisource.org/wiki/Die_Gartenlaube)*, von 1853 bis 1937 erschienen, ist das erste
 erfolgreiche deutschsprachige illustrierte Massenblatt. Seit 2008 werden
 die Jahrgänge bis einschließlich 1899 von einer offenen Community des
