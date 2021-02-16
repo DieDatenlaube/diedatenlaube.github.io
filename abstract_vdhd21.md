@@ -59,6 +59,6 @@ Daten an anderen Stellen zu integrieren oder zu nutzen ein idealer Ort.
 [*Scholia: Q56880673*](https://tools.wmflabs.org/scholia/author/Q56880673)) SLUB Dresden.
 
 
-<p>Veröffentlicht und eingereicht: 11.02.2021</p>
+<p>Veröffentlicht und eingereicht: 11.02.2021 [Q105450860](https://www.wikidata.org/wiki/Q105450860)</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
 <script src="https://hypothes.is/embed.js" async></script>
