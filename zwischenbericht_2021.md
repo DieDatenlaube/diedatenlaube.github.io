@@ -4,4 +4,5 @@ Am 2. Februar 2019 um 16:17 Uhr editierte Christian Erlinger in Wien erstmals ei
 
 
 Der Zwischenbericht wurde am 11. Februar 2021 auf [saxorum.hypotheses.org](https://saxorum.hypotheses.org/5692) veröffentlicht: <a href="https://www.wikidata.org/wiki/Q105440429">(Q105440429)</a>.
+
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
