@@ -6,6 +6,7 @@
 
 ### 2021
 * [Die Datenlaube feat. Wikisource und Wikicite – mit „Caviar“](wikisource_und_wikicite.md) - in Kürze
+* [Serielles Erzählen, Gastbeiträge und punktgenaue Metadaten in Gartenlaube-Illustrationen : strategische #Wisskomm mit #LinkedOpenStorytelling für die #DigitalHumanities (Abstract für VdHD2021- Blogreihe)](public_humanities.md) - 15. April 2021
 * [Zwischenbericht des „SFB 1853“ – zwei Jahre #DieDatenlaube](zwischenbericht_2021.md) - 11. Februar 2021.
 * [Abstract für #vDHd21](abstract_vdhd21.md) - 11. Februar 2021.
 * [Tutorial – Artikel in Wikisource und Wikidata lesen, anlegen, korrigieren, verlinken](Tutorial_Wikisource_nach_Wikidata.md) - 9. Februar 2021
