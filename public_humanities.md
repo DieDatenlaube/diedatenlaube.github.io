@@ -1,6 +1,6 @@
 # Serielles Erzählen, Gastbeiträge und punktgenaue Metadaten in Gartenlaube-Illustrationen : strategische #Wisskomm mit #LinkedOpenStorytelling für die #DigitalHumanities
 
-(Abstract für den [Call for Bloposts der VdHD2021-Blogreihe](https://publicdh.hypotheses.org/15), eingereicht am 15. April 2021.)
+(Abstract für den [Call for Blogposts der VdHD2021-Public Humanities-Blogreihe](https://publicdh.hypotheses.org/15), eingereicht am 15. April 2021.)
 
 Die Datenlaube ist ein Citizen Science-Projekt: Wir erschließen seit 2019 Die Gartenlaube, die in der deutschsprachigen Wikisource vorerst bis 1899 transkribiert wird, mittels strukturierter bibliographischer Daten offen in Wikidata und beschreiben die vielfachen  Illustrationen im Detail punktgenau mit ‘Structured Data on Commons’ in Wikimedia Commons. 
 
