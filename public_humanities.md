@@ -1,6 +1,6 @@
 # Serielles Erzählen, Gastbeiträge und punktgenaue Metadaten in Gartenlaube-Illustrationen : strategische #Wisskomm mit #LinkedOpenStorytelling für die #DigitalHumanities
 
-(Abstract für den [Call for Blogposts der VdHD2021-Public Humanities-Blogreihe](https://publicdh.hypotheses.org/15), eingereicht am 15. April 2021.)
+*Abstract für den [Call for Blogposts der VdHD2021-Public Humanities-Blogreihe](https://publicdh.hypotheses.org/15), eingereicht am 15. April 2021.*
 
 [Die Datenlaube](https://www.wikidata.org/wiki/Q61943025) ist ein Citizen Science-Projekt: [Wir erschließen seit 2019](https://saxorum.hypotheses.org/5692) '[Die Gartenlaube](https://de.wikisource.org/wiki/Die_Gartenlaube)', die in der deutschsprachigen Wikisource vorerst bis 1899 transkribiert wird, [mittels strukturierter bibliographischer Daten offen in Wikidata](https://blog.wikimedia.de/2019/10/16/hilfe-fuer-die-datenlaube-mit-wikisourcewikidata-die-freie-quellensammlung-verbessern/) und beschreiben die vielfachen Illustrationen im Detail punktgenau mit ‘Structured Data on Commons’ in [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Die_Datenlaube.jpg). 
 
@@ -12,5 +12,7 @@ Die Datenlaube wird damit mehr und mehr zu einer Werkstatt für digitale Methode
 
 
 Jens Bemme und Christian Erlinger
+
+Dieser Text hat das Wikidata-Item <a href="https://www.wikidata.org/wiki/Q106509420">(Q106509420)</a>.
 
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
