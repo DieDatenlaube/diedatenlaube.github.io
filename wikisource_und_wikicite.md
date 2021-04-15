@@ -1,3 +1,3 @@
-# Die Datenlaube feat. Wikisource und Wikicite – mit „Caviar“
+# Die Datenlaube feat. Wikisource und Wikicite, mit 'Caviar'
 
-... to be continued.
+Soon to be continued.
