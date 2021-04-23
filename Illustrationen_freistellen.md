@@ -6,15 +6,15 @@
 <p>Für den größten Teil der zu transkribierenden Seiten ist in Wikisource bereits das Grundgerüst der jeweiligen Zeitschriftenseite samt <a href="https://de.wikipedia.org/wiki/Texterkennung" target="_blank">Texterkennung</a> (OCR) vorhanden. Sofern sich auf einer Seite Illustrationen befinden, sind diese auch im WikiText bereits entsprechend eingebunden. Gibt es aber die freigestellte Illustration noch nicht in <a href="https://commons.wikimedia.org/wiki/Category:Gartenlaube_(Magazine)" target="_blank">Wikimedia Commons</a>, dann erscheint anstelle des Bildes in Wikisource ein „Rotlink“ einer Pixelangabe gegebenenfalls mit bereits transkirbierter Bildlegende wie in gezeigt.</p>
 
 <figure>
-<img src=".//Pictures/10000201000003EA0000020E90F85421A04935F9.png" alt="Abbildung 1: Wikisource-Transkript einer Seite mit eingebettetem aber noch nicht freigestelltem Bild" style="width:17cm;height:8.924cm" /><figcaption>Abbildung 1: Wikisource-Transkript einer <a href="https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1895)_b_043_1.jpg" target="_blank">Zeitungsseite (1895, Heft 3, S. 43: <em>Die Diamanten- und Goldfelder in Südafrika</em>)</a> mit eingebettetem Bildlink aber noch fehlender Commonsdatei der freigestellten Illustration <em>Caledonische Batterie</em>.</figcaption>
+<img src=".//Pictures/10000201000003EA0000020E90F85421A04935F9.png" alt="Abbildung 1: Wikisource-Transkript einer Seite mit eingebettetem aber noch nicht freigestelltem Bild" style="width:17cm;height:8.924cm" /><figcaption>Abbildung 1: Wikisource-Transkript einer <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika" target="_blank">Zeitungsseite (1895, Heft 3, S. 43: <em>Die Diamanten- und Goldfelder in Südafrika</em>)</a> mit eingebettetem Commons-Bildlink aber noch fehlender Commonsdatei der freigestellten Illustration <em>Caledonische Batterie</em></figcaption>
 </figure>
 </p>&nbsp;</p>
-<p>Um das Bild freizustellen, ist zuerst der Scan der jeweiligen Seite herunterzuladen. Die Wikisource-Seite bietet im Kopfbereich hierfür einen Direktlink zum Scan. Diese Datei (im jpg-Format) kann dann zur weiteren Bearbeitung in ein Bildbearbeitungsprogramm (empfehlenswert ist die Open Source Software Gimp) geladen werden. (Pro-Tipp: Den Scan mit Rechtsklick in einem neuen Browsertab öffnen, dann bleibt die Wikisource-Seite für weitere Bearbeitungen offen. Dann im Browser mit Rechtsklick „Bild kopieren“ auswählen und in GIMP mit der Tastenkombination Strg+Shift+V rasch ohne Dateioperation („Speichern“, „Öffnen“) das Bild zur Bearbeitung übernommen werden)</p>
+<p>Um das Bild freizustellen, ist zuerst der Scan der jeweiligen Seite herunterzuladen. Die Wikisource-Seite bietet im Kopfbereich hierfür einen Direktlink zum Scan. Diese Datei (im jpg-Format) kann dann zur weiteren Bearbeitung in ein Bildbearbeitungsprogramm (empfehlenswert ist die Open Source Software <a href="https://www.gimp.org/" target="_blank"> Gimp</a>) geladen werden. (Pro-Tipp: Den Scan mit Rechtsklick in einem neuen Browsertab öffnen, dann bleibt die Wikisource-Seite für weitere Bearbeitungen offen. Dann im Browser mit Rechtsklick „Bild kopieren“ auswählen und in GIMP mit der Tastenkombination Strg+Shift+V rasch ohne Dateioperation („Speichern“, „Öffnen“) das Bild zur Bearbeitung übernommen werden).</p>
 
 <figure>
 <img src=".//Pictures/100002010000054900000383068C1BA84A935040.png" alt="Abbildung 2: Scan einer Seite in GIMP zur Bearbeitung mit Hilfslinien" style="width:17cm;height:11.294cm" /><figcaption>Abbildung 2: Scan einer Seite in GIMP zur Bearbeitung mit Hilfslinien</figcaption>
 </figure>
-<br />
+<br /><br />
 <p>In GIMP sind nun je nach Illustrationen und Qualität des Scans mehrere Bearbeitungsschritte notwendig:<br />
 </p>
 <ul>
@@ -28,11 +28,11 @@
 <figure>
 <img src=".//Pictures/1000020100000462000004BFEB094D7312BCF84E.png" alt="Abbildung 3: Ausgerichtete und zugeschnitte Illustration" style="width:17cm;height:18.408cm" /><figcaption>Abbildung 3: Ausgerichtete und zugeschnitte Illustration</figcaption>
 </figure>
-<br />
-<p>Die lokal abgespeicherte und entsprechend bearbeitet Illustration muss nun durch Klick auf „Mediendateien zum Hochladen auswählen“ auf Wikimedia Commons hochgeladen werden.</p>
+<br /><br />
+<p>Die lokal abgespeicherte und entsprechend bearbeitet Illustration muss nun durch Klick auf „Mediendateien zum Hochladen auswählen“ auf <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a> hochgeladen werden.</p>
 
 <p><img src=".//Pictures/10000201000004AF0000028037D92ED61E8636D9.png" title="fig:" alt="Abbildung 4: Wikimedia Commons Hochladeassistent mit markiertem Dateinamen in der Adresszeile" style="width:17cm;height:9.073cm" /><br /></p>
-<br />
+<br /><br />
 <p>Der Hochladeassistent verlangt nun im nächsten Arbeitsschritt die Angabe einer korrekten Urheberrechtsinformation:</p>
 <ul>
 <li>Auswahl „Dies ist nicht meine eigene Arbeit“</li>
@@ -44,21 +44,21 @@
 
 <p>Die hier angegeben Informationen haben „Dummy“-Charakter, da im finalen Arbeitsschritt die mit diesen Werten erstellte Beschreibungstabelle durch die Gartenlaube-Vorlage ersetzt wird.</p>
 
-<p>Im folgenden Schritt erfolgen deskriptive Angaben zum hochzuladenden Bild (vgl. ): </p>
+<p>Im folgenden Schritt erfolgen deskriptive Angaben zum hochzuladenden <a href="https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1895)_b_043_1.jpg" target="_blank">Bild</a> (vgl. Abb. 5): </p>
 
 <ul>
 <li>„Bildtitel“ entspricht dem Dateinamen und wird, sofern die Datei der Gartenlaube-Syntax wie oben beschrieben entspricht.</li>
 <li>„Medienlegende“: Wenn im Original der Gartenlaube eine Bildunterschrift vorhanden ist, so wird hier angegeben „Bildunterschrift“ Illustration in: Die Gartenlaube (Jahrgang), S. XY – in unserem Falle: <em>„Caledonische Batterie.“ Illustration in: Die Gartenlaube (1895), S. 43</em></li>
 <li>Im Feld „Beschreibung“ den gleichen Wert wie in „Medienlegende“ übernehmen – als Sprachattribut in beiden Fällen „Deutsch“ auswählen.</li>
-<li>Datum den 1. Jänner des jeweiligen Jahrgangs angeben</li>
-<li>„Kategorie“ – hier muss das Bild, sofern möglich einer spezifischen Inhaltskategorie der Commons-Kategorien zugeordnet werden; im vorliegenden Fall bietet sich die Kategorie „Gold mines in South Africa“ an. Findet sich keine passende Kategorie so sind freigestellte Gartenlaubeillustrationen der Sammelkategorie „Images from Gartenlaube requiring categorization“ für spätere Kategorisierung zuzuordnen. </li>
+<li>Datum den 1. Januar des jeweiligen Jahrgangs angeben</li>
+<li>„Kategorie“ – hier muss das Bild, sofern möglich einer spezifischen Inhaltskategorie der Commons-Kategorien zugeordnet werden; im vorliegenden Fall bietet sich die Kategorie „<a href="https://commons.wikimedia.org/wiki/Category:Gold_mines_in_South_Africa" target="_blank"> Gold mines in South Africa</a>“ an. Findet sich keine passende Kategorie so sind freigestellte Gartenlaubeillustrationen der Sammelkategorie „Images from Gartenlaube requiring categorization“ für spätere Kategorisierung zuzuordnen. </li>
 </ul>
 
 <figure>
 <img src=".//Pictures/100002010000036E000002C5E68B9D14B852A155.png" alt="Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons" style="width:17cm;height:13.727cm" /><figcaption>Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons</figcaption>
 </figure>
-
-<p>Im nächsten Formularteil es Hochladeassistenten besteht die Möglichkeit Beschreibungen in strukturierter Form (Structured Data on Commons) anzulegen (vgl. ) bereits vorausgewählte Eigenschaft ist „Motiv“ vorhanden, welches mit Rückgriff auf alle Items von Wikidata eine genaue inhaltliche Beschreibung des Bildes ermöglicht. </p>
+<br /><br />
+<p>Im nächsten Formularteil es Hochladeassistenten besteht die Möglichkeit Beschreibungen in strukturierter Form (Structured Data on Commons) anzulegen (vgl. Abb. 6) bereits vorausgewählte Eigenschaft ist „Motiv“ vorhanden, welches mit Rückgriff auf alle Items von Wikidata eine genaue inhaltliche Beschreibung des Bildes ermöglicht. </p>
 
 <p>Durch Auswahl auf „weitere Aussagen hinzufügen“ können unterschiedliche „Properties“ zur Beschreibung des Bildes hinzugefügt werden. Für Gartenlaube-Illustrationen bietet sich „veröffentlicht in“ an, um das Bild mit Seitenangabe und Publikationsdatum mit der Zeitschrift zu verlinken.</p>
 
@@ -66,13 +66,18 @@
 <img src=".//Pictures/10000201000002B500000348CA49EEC3A375C8AA.png" alt="Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)" style="width:17cm;height:20.606cm" /><figcaption>Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)</figcaption>
 </figure>
 <br /><br />
-<p>Nach der strukturierten Beschreibung ist das Hochladen der Datei abgeschlossen. Für Illustrationen der Gartenlaube bestehen zentral verwaltete Vorlagen, die sämtliche formale Beschreibungen der Datei und Verlinkung im Kontext des gesamten Scans ermöglichen. Hierfür auf der Seit der fertig erstellen Datei auf „Bearbeiten“ klicken und mit Ausnahme der eingetragenen Kategorien den gesamten WikiText durch den einzeiligen Code der Vorlage wie in gezeigt ersetzen. Für jeden Jahrgang besteht eine eigene Vorlage, die zwei Parameter beinhalte, mit „caption“ sofern vorhanden den Text der Bildunterschrift und danach die Seitenangabe der Illustration. </p>
+<p>Nach der strukturierten Beschreibung ist das Hochladen der Datei abgeschlossen. Für Illustrationen der Gartenlaube bestehen zentral verwaltete Vorlagen, die sämtliche formale Beschreibungen der Dateien und deren Verlinkung im Zusammenhang des gesamten Scanbestandes ermöglichen. Hierfür auf der Seite der fertig erstellen Datei auf „Bearbeiten“ klicken und mit Ausnahme der eingetragenen Kategorien den gesamten WikiText durch den einzeiligen Code der Vorlage wie in gezeigt ersetzen. Für jeden Jahrgang besteht eine eigene Vorlage, die zwei Parameter beeinhaltet, mit „caption“ sofern vorhanden den Text der Bildunterschrift – sowie danach die Seitenangabe der Illustration. </p>
 <figure>
+<br /><br />
 <img src=".//Pictures/10000201000002E2000000CD92DCEBB47B43FE3D.png" alt="Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube" style="width:17cm;height:4.722cm" /><figcaption>Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube</figcaption>
 </figure>
 <br /><br />
-<p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. ) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
-
+<p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
+<br /><br />
 <figure>
 <img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="width:17cm;height:18.004cm" /><figcaption>Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration</figcaption>
 </figure>
+<p>&nbsp;</p>
+<p>Christian Erlinger, 23. April 2021</p>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>
+<p>Item dieses Artikels: <a href="https://www.wikidata.org/wiki/Quuuuuu">(Quuuuuu)</a></p>
