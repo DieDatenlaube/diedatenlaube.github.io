@@ -75,9 +75,9 @@
 <p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
 <br /><br />
 <figure>
-<img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="width:17cm;height:18.004cm" /><figcaption>Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration</figcaption>
+<img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="width:17cm;height:18.004cm" /><figcaption>Abbildung 8: Wikisource-Transkript der <a href="https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1895)_043.jpg" target="_blank">Seite 43</a> mit eingebetteter, freigestellter Illustration im Artikel <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika#Seite_43" target="_blank"><em>Die Diamanten- und Goldfelder in Südafrika</em></a>.</figcaption>
 </figure>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 23. April 2021</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>
-<p>Item dieses Artikels: <a href="https://www.wikidata.org/wiki/Quuuuuu">(Quuuuuu)</a></p>
+<p><em>Item dieses Artikels: <a href="https://https://www.wikidata.org/wiki/Q106603140" target="_blank">(Q106603140)</a></em></p>
