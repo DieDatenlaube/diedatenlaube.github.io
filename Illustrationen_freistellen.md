@@ -26,12 +26,12 @@
 <li>Die Datei ist dann nach dem vorgegebenen Muster abzuspeichern. Liegt ein Rotlink vor so reicht es diesen mit Rechtsklick in einem neuen Tab zu öffnen, dann erscheint automatisch der Wikimedia Commons Upload-Assistent. In der Adresszeile des Browsers, wie in dargestellt, befindet sich der Dateiname, der für Illustrationen der Gartenlaube nach folgender Konvention aufgebaut ist: „Die_Gartenlaube_(JJJJ)_b_SEITE_lfdNr.jpg“ → für unsere ausgeschnittene Datei lautet der Dateiname „<a href="https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1895)_b_043_1.jpg" target="_blank">Die_Gartenlaube_(1895)_b_043_1.jpg</a>“. „b“ zeigt an, dass es sich hierbei um eine freigestellte Illustration der Seite 43 handelt. Die laufende Nummer am Ende wird dann angegeben, wenn eine Seite – wie in unserem Fall – mehrere selbständige Illustrationen beinhaltet. </li>
 </ul>
 <figure>
-<img src=".//Pictures/1000020100000462000004BFEB094D7312BCF84E.png" alt="Abbildung 3: Ausgerichtete und zugeschnitte Illustration" style="width:17cm;height:18.408cm" /><figcaption>Abbildung 3: Ausgerichtete und zugeschnitte Illustration</figcaption>
+<img src=".//Pictures/1000020100000462000004BFEB094D7312BCF84E.png" alt="Abbildung 3: Ausgerichtete und zugeschnitte Illustration" style="" /><figcaption>Abbildung 3: Ausgerichtete und zugeschnitte Illustration</figcaption>
 </figure>
 
 <p>Die lokal abgespeicherte und entsprechend bearbeitet Illustration muss nun durch Klick auf „Mediendateien zum Hochladen auswählen“ auf <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a> hochgeladen werden.</p>
 
-<p><img src=".//Pictures/10000201000004AF0000028037D92ED61E8636D9.png" title="fig:" alt="Abbildung 4: Wikimedia Commons Hochladeassistent mit markiertem Dateinamen in der Adresszeile" style="width:17cm;height:9.073cm" /><br /></p>
+<p><img src=".//Pictures/10000201000004AF0000028037D92ED61E8636D9.png" title="fig:" alt="Abbildung 4: Wikimedia Commons Hochladeassistent mit markiertem Dateinamen in der Adresszeile" style="" /><br /></p>
 
 <p>Der Hochladeassistent verlangt nun im nächsten Arbeitsschritt die Angabe einer korrekten Urheberrechtsinformation:</p>
 <ul>
@@ -55,7 +55,7 @@
 </ul>
 
 <figure>
-<img src=".//Pictures/100002010000036E000002C5E68B9D14B852A155.png" alt="Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons" style="width:17cm;height:13.727cm" /><figcaption>Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons</figcaption>
+<img src=".//Pictures/100002010000036E000002C5E68B9D14B852A155.png" alt="Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons" style="" /><figcaption>Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons</figcaption>
 </figure>
 
 <p>Im nächsten Formularteil es Hochladeassistenten besteht die Möglichkeit Beschreibungen in strukturierter Form (Structured Data on Commons) anzulegen (vgl. Abb. 6) bereits vorausgewählte Eigenschaft ist „Motiv“ vorhanden, welches mit Rückgriff auf alle Items von Wikidata eine genaue inhaltliche Beschreibung des Bildes ermöglicht. </p>
@@ -63,19 +63,19 @@
 <p>Durch Auswahl auf „weitere Aussagen hinzufügen“ können unterschiedliche „Properties“ zur Beschreibung des Bildes hinzugefügt werden. Für Gartenlaube-Illustrationen bietet sich „veröffentlicht in“ an, um das Bild mit Seitenangabe und Publikationsdatum mit der Zeitschrift zu verlinken.</p>
 
 <figure>
-<img src=".//Pictures/10000201000002B500000348CA49EEC3A375C8AA.png" alt="Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)" style="width:17cm;height:20.606cm" /><figcaption>Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)</figcaption>
+<img src=".//Pictures/10000201000002B500000348CA49EEC3A375C8AA.png" alt="Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)" style="" /><figcaption>Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)</figcaption>
 </figure>
 
 <p>Nach der strukturierten Beschreibung ist das Hochladen der Datei abgeschlossen. Für Illustrationen der Gartenlaube bestehen zentral verwaltete Vorlagen, die sämtliche formale Beschreibungen der Dateien und deren Verlinkung im Zusammenhang des gesamten Scanbestandes ermöglichen. Hierfür auf der Seite der fertig erstellen Datei auf „Bearbeiten“ klicken und mit Ausnahme der eingetragenen Kategorien den gesamten WikiText durch den einzeiligen Code der Vorlage wie in gezeigt ersetzen. Für jeden Jahrgang besteht eine eigene Vorlage, die zwei Parameter beeinhaltet, mit „caption“ sofern vorhanden den Text der Bildunterschrift – sowie danach die Seitenangabe der Illustration. </p>
 <figure>
 
-<img src=".//Pictures/10000201000002E2000000CD92DCEBB47B43FE3D.png" alt="Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube" style="width:17cm;height:4.722cm" /><figcaption>Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube</figcaption>
+<img src=".//Pictures/10000201000002E2000000CD92DCEBB47B43FE3D.png" alt="Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube" style="" /><figcaption>Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube</figcaption>
 </figure>
 
 <p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. Abb. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
 
 <figure>
-<img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="width:17cm;height:18.004cm" /><figcaption>Abbildung 8: Wikisource-Transkript der <a href="https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1895)_043.jpg" target="_blank">Seite 43</a> mit eingebetteter, freigestellter Illustration im Artikel <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika#Seite_43" target="_blank"><em>Die Diamanten- und Goldfelder in Südafrika</em></a>.</figcaption>
+<img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="" /><figcaption>Abbildung 8: Wikisource-Transkript der <a href="https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1895)_043.jpg" target="_blank">Seite 43</a> mit eingebetteter, freigestellter Illustration im Artikel <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika#Seite_43" target="_blank"><em>Die Diamanten- und Goldfelder in Südafrika</em></a>.</figcaption>
 </figure>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 23. April 2021</p>
