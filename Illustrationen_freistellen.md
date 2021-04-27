@@ -8,7 +8,7 @@
 <figure>
 <img src=".//Pictures/10000201000003EA0000020E90F85421A04935F9.png" alt="Abbildung 1: Wikisource-Transkript einer Seite mit eingebettetem aber noch nicht freigestelltem Bild" style="width:17cm;height:8.924cm" /><figcaption>Abbildung 1: Wikisource-Transkript einer <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika" target="_blank">Zeitungsseite (1895, Heft 3, S. 43: <em>Die Diamanten- und Goldfelder in Südafrika</em>)</a> mit eingebettetem Commons-Bildlink aber noch fehlender Commonsdatei der freigestellten Illustration <em>Caledonische Batterie</em></figcaption>
 </figure>
-</p>&nbsp;</p>
+
 <p>Um das Bild freizustellen, ist zuerst der Scan der jeweiligen Seite herunterzuladen. Die Wikisource-Seite bietet im Kopfbereich hierfür einen Direktlink zum Scan. Diese Datei (im jpg-Format) kann dann zur weiteren Bearbeitung in ein Bildbearbeitungsprogramm (empfehlenswert ist die Open Source Software <a href="https://www.gimp.org/" target="_blank"> Gimp</a>) geladen werden. (Pro-Tipp: Den Scan mit Rechtsklick in einem neuen Browsertab öffnen, dann bleibt die Wikisource-Seite für weitere Bearbeitungen offen. Dann im Browser mit Rechtsklick „Bild kopieren“ auswählen und in GIMP mit der Tastenkombination Strg+Shift+V rasch ohne Dateioperation („Speichern“, „Öffnen“) das Bild zur Bearbeitung übernommen werden).</p>
 
 <figure>
