@@ -28,11 +28,11 @@
 <figure>
 <img src=".//Pictures/1000020100000462000004BFEB094D7312BCF84E.png" alt="Abbildung 3: Ausgerichtete und zugeschnitte Illustration" style="width:17cm;height:18.408cm" /><figcaption>Abbildung 3: Ausgerichtete und zugeschnitte Illustration</figcaption>
 </figure>
-<br />
+
 <p>Die lokal abgespeicherte und entsprechend bearbeitet Illustration muss nun durch Klick auf „Mediendateien zum Hochladen auswählen“ auf <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a> hochgeladen werden.</p>
 
 <p><img src=".//Pictures/10000201000004AF0000028037D92ED61E8636D9.png" title="fig:" alt="Abbildung 4: Wikimedia Commons Hochladeassistent mit markiertem Dateinamen in der Adresszeile" style="width:17cm;height:9.073cm" /><br /></p>
-<br />
+
 <p>Der Hochladeassistent verlangt nun im nächsten Arbeitsschritt die Angabe einer korrekten Urheberrechtsinformation:</p>
 <ul>
 <li>Auswahl „Dies ist nicht meine eigene Arbeit“</li>
@@ -65,13 +65,13 @@
 <figure>
 <img src=".//Pictures/10000201000002B500000348CA49EEC3A375C8AA.png" alt="Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)" style="width:17cm;height:20.606cm" /><figcaption>Abbildung 6: Erfassung strukturierter Metadaten (Structured Data on Commons)</figcaption>
 </figure>
-<br />
+
 <p>Nach der strukturierten Beschreibung ist das Hochladen der Datei abgeschlossen. Für Illustrationen der Gartenlaube bestehen zentral verwaltete Vorlagen, die sämtliche formale Beschreibungen der Dateien und deren Verlinkung im Zusammenhang des gesamten Scanbestandes ermöglichen. Hierfür auf der Seite der fertig erstellen Datei auf „Bearbeiten“ klicken und mit Ausnahme der eingetragenen Kategorien den gesamten WikiText durch den einzeiligen Code der Vorlage wie in gezeigt ersetzen. Für jeden Jahrgang besteht eine eigene Vorlage, die zwei Parameter beeinhaltet, mit „caption“ sofern vorhanden den Text der Bildunterschrift – sowie danach die Seitenangabe der Illustration. </p>
 <figure>
-<br />
+
 <img src=".//Pictures/10000201000002E2000000CD92DCEBB47B43FE3D.png" alt="Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube" style="width:17cm;height:4.722cm" /><figcaption>Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube</figcaption>
 </figure>
-<br />
+
 <p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
 <br />
 <figure>
