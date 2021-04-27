@@ -57,7 +57,7 @@
 <figure>
 <img src=".//Pictures/100002010000036E000002C5E68B9D14B852A155.png" alt="Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons" style="width:17cm;height:13.727cm" /><figcaption>Abbildung 5: Fertig befülltes Beschreibungs-Formular des Hochladeassistenten in Wikimedia Commons</figcaption>
 </figure>
-<br />
+
 <p>Im nächsten Formularteil es Hochladeassistenten besteht die Möglichkeit Beschreibungen in strukturierter Form (Structured Data on Commons) anzulegen (vgl. Abb. 6) bereits vorausgewählte Eigenschaft ist „Motiv“ vorhanden, welches mit Rückgriff auf alle Items von Wikidata eine genaue inhaltliche Beschreibung des Bildes ermöglicht. </p>
 
 <p>Durch Auswahl auf „weitere Aussagen hinzufügen“ können unterschiedliche „Properties“ zur Beschreibung des Bildes hinzugefügt werden. Für Gartenlaube-Illustrationen bietet sich „veröffentlicht in“ an, um das Bild mit Seitenangabe und Publikationsdatum mit der Zeitschrift zu verlinken.</p>
@@ -72,8 +72,8 @@
 <img src=".//Pictures/10000201000002E2000000CD92DCEBB47B43FE3D.png" alt="Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube" style="width:17cm;height:4.722cm" /><figcaption>Abbildung 7: Ersetzung der WikiText-Beschreibungen durch die Vorlage:Gartenlaube</figcaption>
 </figure>
 
-<p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
-<br />
+<p>Mit diesen Schritten ist eine weitere Illustration der Gartenlaube in Wikisource eingebettet (vgl. Abb. 7) und in Wikimedia Commons möglichst weitgehend erschlossen.</p>
+
 <figure>
 <img src=".//Pictures/10000201000002E900000315461110BDE069AA29.png" alt="Abbildung 8: Wikisource-Transkript einer Seite mit eingebetteter, freigestellter Illustration" style="width:17cm;height:18.004cm" /><figcaption>Abbildung 8: Wikisource-Transkript der <a href="https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1895)_043.jpg" target="_blank">Seite 43</a> mit eingebetteter, freigestellter Illustration im Artikel <a href="https://de.wikisource.org/wiki/Die_Diamanten-_und_Goldfelder_in_S%C3%BCdafrika#Seite_43" target="_blank"><em>Die Diamanten- und Goldfelder in Südafrika</em></a>.</figcaption>
 </figure>
