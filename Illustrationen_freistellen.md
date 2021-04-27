@@ -1,4 +1,4 @@
-<h1 id="illustrationen-freistellen-für-die-gartenlaube">Illustrationen freistellen für die Gartenlaube</h1>
+<h1 id="illustrationen-freistellen-für-die-gartenlaube">Illustrationen freistellen für Die Gartenlaube</h1>
 <p><a href="https://de.wikisource.org/wiki/Die_Gartenlaube" target="_blank">Die Gartenlaube</a> als das „illustrierte Familienblatt“ lebt zentral von der Vielfalt, Vielzahl und Qualität der abgedruckten Illustrationen. Im Wikisource-Transkript der Zeitschrift werden die Illustrationen aus dem Scan der jeweiligen Seite freigestellt und somit als selbständige Bilddatei im Volltext der Seite bzw. im Kontext der Artikel eingebettet.</p>
 
 <p>Neben der fortlaufenden Arbeit an der Textkorrektur oder dem Anlegen neuer Artikeleinheiten in Wikisource ist auch das Freistellen der Illustrationen ein großes offenes Arbeitsgebiet, für welches das Wikisourceprojekt stets offen für Freiwillige ist. Hier eine kurze Anleitung für das manuelle Bearbeiten und Hochladen neuer Illustrationen der Gartenlaube, insbesondere in Wikimedia Commons.</p>
