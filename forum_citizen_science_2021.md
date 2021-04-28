@@ -1,4 +1,4 @@
-<h1 id="Open Citizen Science: Metadaten und Links für ‚Die Bauwerke und Denkmäler der Welt‘">Open Citizen Science: Metadaten für ‚Die Bauwerke und Denkmäler der Welt‘</h1>
+<h1 id="Open Citizen Science: Metadaten und Links für ‚Die Bauwerke und Denkmäler der Welt‘">Open Citizen Science: Metadaten und Links für ‚Die Bauwerke und Denkmäler der Welt‘</h1>
 <p> Poster zum <a href="https://www.buergerschaffenwissen.de/citizen-science/veranstaltungen/forum-citizen-science-2021">Forum Citizen Science 2021</a> von <em>Jens Bemme</em> <a href="https://www.wikidata.org/wiki/Q56880673"><em>(Q56880673)</em></a><em>, </a><em>Matthias Erfurth</em> <a href="https://www.wikidata.org/wiki/Q104817476"><em>(Q104817476)</em></a><em></em> und </em><em>Christian Erlinger</em> <a href="https://www.wikidata.org/wiki/Q67173261"><em>(Q67173261)</em>.
 </p>
 <a href="https://doi.org/10.5281/zenodo.4707221"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4707221.svg" alt="DOI"></a>
