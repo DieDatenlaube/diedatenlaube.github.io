@@ -79,5 +79,5 @@
 </figure>
 <p>&nbsp;</p>
 <p>Christian Erlinger, 23. April 2021</p>
-<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a><script src="https://hypothes.is/embed.js" async></script>
 <p><em>Item dieses Artikels: <a href="https://www.wikidata.org/wiki/Q106603140" target="_blank">(Q106603140)</a></em></p>
