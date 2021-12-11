@@ -4,7 +4,7 @@ Mehr als 15.000 Artikel der Gartenlaube sind Ende 2021 in Wikisource erschlossen
 
 ## Frage 
 
-Wie kommt man zum Texttranskript aller Gartenlaube-Artikel in Wikisource? (vgl. [Benutzer_Diskussion:Jeb#Gartenlaube_runterladen](https://de.wikisource.org/wiki/Benutzer_Diskussion:Jeb#Gartenlaube_runterladen)
+Wie kommt man zum Texttranskript aller Gartenlaube-Artikel in Wikisource? (vgl. [Benutzer_Diskussion:Jeb#Gartenlaube_runterladen](https://de.wikisource.org/wiki/Benutzer_Diskussion:Jeb#Gartenlaube_runterladen))
 
 ## Let's hack
 
@@ -14,7 +14,7 @@ Was muss vorab beachtet werden?
 
 * Der Text von Wikisource-Artikeln liegt nicht in den Seiten der strukturierten Zeitschriftenartikel, sondern in den Wiki-Artikel des `Seite:`-Namespaces
 * Ein Wikisource-Großprojekt wie Die Gartenlaube ist nicht in einer einzigen Projektkategorie organisiert. Die einzelnen Seiten liegen in Jahrgangskategorien vor, die selbst eine Unterkategorie der Gartenlaube-Kategorie sind.
-* Die MediaWiki-API bietet eine Extension an, um möglichst "Plain"-Text zu erhalten. Diese Extension `TextExctracts` [www.mediawiki.org/wiki/Extension:TextExtracts/de](https://www.mediawiki.org/wiki/Extension:TextExtracts/de) ist aber für die Wikisource nicht verfügbar, da hier die Extension Proofread dies technisch gegenwärtig nicht ermöglicht. Daher ist ein Text-Output nur in einem gerenderte HTML oder im Wikitext möglich. Beide Varianten werden am Ende dieses Skripts im Output vereint.
+* Die MediaWiki-API bietet eine Extension an, um möglichst "Plain"-Text zu erhalten. Diese Extension `TextExctracts` ([www.mediawiki.org/wiki/Extension:TextExtracts/de](https://www.mediawiki.org/wiki/Extension:TextExtracts/de)) ist aber für die Wikisource nicht verfügbar, da hier die Extension Proofread dies technisch gegenwärtig nicht ermöglicht. Daher ist ein Text-Output nur in einem gerenderte HTML oder im Wikitext möglich. Beide Varianten werden am Ende dieses Skripts im Output vereint.
 
 ### 1. Schritt - Alle Jahrgangskategorien parsen
 
