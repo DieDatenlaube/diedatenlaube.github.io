@@ -4,7 +4,7 @@ Mehr als 15.000 Artikel der Gartenlaube sind Ende 2021 in Wikisource erschlossen
 
 ## Frage 
 
-Wie kommt man zum Texttranskript aller Gartenlaube-Artikel in Wikisource? (vgl. https://de.wikisource.org/wiki/Benutzer_Diskussion:Jeb#Gartenlaube_runterladen)
+Wie kommt man zum Texttranskript aller Gartenlaube-Artikel in Wikisource? (vgl. [Benutzer_Diskussion:Jeb#Gartenlaube_runterladen](https://de.wikisource.org/wiki/Benutzer_Diskussion:Jeb#Gartenlaube_runterladen) (de.wikisource.org/wiki/Benutzer_Diskussion:Jeb#Gartenlaube_runterladen)
 
 ## Let's hack
 
@@ -177,4 +177,6 @@ f = open("GartenlaubeSeitenText.json", "w")
 print(json.dumps(SeitenText),file=f)
 f.close()
 ```
-
+<p>&nbsp;</p>
+<p>Chrstian Erlinger, 9. Dezember 2021</p>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
