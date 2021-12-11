@@ -167,7 +167,7 @@ for page in pages:
     SeitenText.append(SeitenTextDet)
     print(page["pageid"])
 ```
-# ### 4. Export als JSON in Datei
+### 4. Export als JSON in Datei
     
 ```python
 import json
