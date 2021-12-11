@@ -167,11 +167,14 @@ for page in pages:
     SeitenText.append(SeitenTextDet)
     print(page["pageid"])
 ```
-
+# ### 4. Export als JSON in Datei
     
 ```python
 import json
 
-%store json.dumps(SeitenText) >>"Gartenlaube_SeitenText.json"
+
+f = open("GartenlaubeSeitenText.json", "w")
+print(json.dumps(SeitenText),file=f)
+f.close()
 ```
 
