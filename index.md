@@ -5,7 +5,7 @@
 ## Blogposts
 
 ### 2021
-* [Wie kommt man zum Text aller Gartenlaubeseiten in Wikisource?](Get_Gartenlaube_Seitentext.md): Eine Annäherung im Skript via Mediawiki-API - 9. Dezember 2021
+* [Wie kommt man zum Text aller Gartenlaubeseiten in Wikisource?](Get_Gartenlaube_SeitenText.md): Eine Annäherung im Skript via Mediawiki-API - 9. Dezember 2021
 * [Tutorial - Illustrationen freistellen für Die Gartenlaube](Illustrationen_freistellen.md) - 23. April 2021
 * [Die Datenlaube feat. Wikisource und Wikicite – mit „Caviar“](wikisource_und_wikicite.md) - in Kürze
 * [Serielles Erzählen, Gastbeiträge und punktgenaue Metadaten in Gartenlaube-Illustrationen : strategische #Wisskomm mit #LinkedOpenStorytelling für die #DigitalHumanities (Abstract für VdHD2021- Blogreihe)](public_humanities.md) - 15. April 2021
