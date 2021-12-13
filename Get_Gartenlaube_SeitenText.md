@@ -177,6 +177,6 @@ with open("/home/paws/Gartenlaube/output/GartenlaubeSeiten_Text_"+str(time.time(
 
 <p>&nbsp;</p>
 <p>Christian Erlinger, 9. Dezember 2021</p>
-<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script></a>
 
-*Item dieses Artikels:[https://www.wikidata.org/wiki/Q110039103](Q110039103)*
+*Item dieses Artikels: ([https://www.wikidata.org/wiki/Q110039103](Q110039103))*
