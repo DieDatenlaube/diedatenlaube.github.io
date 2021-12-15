@@ -8,7 +8,7 @@ Wie kommt man zum Texttranskript aller Gartenlaube-Artikel in Wikisource? (vgl. 
 
 ## Let's hack
 
-Die MediaWiki-API bietet eine Vielzahl an Methoden um Daten aus MediaWikis - wie Wikisource - maschinell und im großen Stil zu extrahieren. Für große Projekte wie die Gartenlaube, die letztlich auch so sturkturiert sind wie sie strukturiert sind, geht es aber nicht ganz ohne Code. 
+Die MediaWiki-API bietet eine Vielzahl an Methoden um Daten aus MediaWikis - wie Wikisource - maschinell und im großen Stil zu extrahieren. Für große Projekte wie die Gartenlaube, die letztlich auch so strukturiert sind wie sie strukturiert sind, geht es aber nicht ganz ohne Code. 
 
 Was muss vorab beachtet werden?
 
