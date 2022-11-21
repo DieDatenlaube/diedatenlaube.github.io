@@ -37,3 +37,5 @@
 * [Wikiversity: DieDatenlaube w/ DatenlaubeJam](https://de.wikiversity.org/wiki/DieDatenlaube)
 
 <script src="https://hypothes.is/embed.js" async></script>
+<a rel="me" href="https://openbiblio.social/@librerli" style="display:none">librerli@Mastodon</a>
+<a rel="me" href="https://openbiblio.social/@jensb" style="display:none">jensb@Mastodon</a>
