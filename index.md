@@ -5,7 +5,7 @@
 ## Blogposts
 
 ### 2022
-* [Die Datenlaube und das Jahr 2022](jahr 2022.md) - 29. Dezember 2022
+* [Die Datenlaube und das Jahr 2022](jahr_2022.md) - 29. Dezember 2022
 
 ### 2021
 * [Neues aus der DatenBauLaube - ein Werkstatt-Zwischenbericht](Datenbaulaube-Werkstatt.md) - 28. Dezember 2021
