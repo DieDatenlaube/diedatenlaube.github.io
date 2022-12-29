@@ -35,7 +35,7 @@ In der MySQL-Datenbank können wiederum mit dem tee-Befehl selbst neue SQL-State
 Als erstes hatte mich interessiert, ob es noch besondere Substantive gibt, die als neue Main-Subjects herhalten könnten:
   <code>UPDATE words SET typ='noun' WHERE word REGEXP BINARY '[A-Z]';</code> - Diese "noun" bin ich dann einfach durchgegangen: 
 <li><b>next steps</b>:<br/>
-Kürzlich hatte ich ein kurzweiliges <a href="https://www.slub-dresden.de/besuchen/veranstaltungen/details/veranstaltung/34177">NLTK-Tutorial</a> und dort kamen Stopwort-Dictionaries und Konkordanzlisten zur Sprache - da wird es bald eine "DieGartenlaube"-Edition dazu geben...
+Kürzlich hatte ich ein kurzweiliges <a href="https://www.slub-dresden.de/besuchen/veranstaltungen/details/veranstaltung/34177">NLTK-Tutorial</a> und dort kamen Stopwort-Dictionaries und Konkordanzlisten zur Sprache - da wird es bald eine "DieGartenlaube"-Edition dazu geben...</li>
 </ol>
 
 <p>Matthias Erfurth, 28. Dezember 2021</p>
