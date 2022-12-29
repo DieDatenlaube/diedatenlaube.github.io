@@ -4,7 +4,11 @@
 
 ## Blogposts
 
+### 2022
+* [Die Datenlaube und das Jahr 2022](jahr 2022.md) - 29. Dezember 2022
+
 ### 2021
+* [Neues aus der DatenBauLaube - ein Werkstatt-Zwischenbericht](Datenbaulaube-Werkstatt.md) - 28. Dezember 2021
 * [Wie kommt man zum Text aller Gartenlaubeseiten in Wikisource?](Get_Gartenlaube_SeitenText.md): Eine Annäherung im Skript via Mediawiki-API - 9. Dezember 2021
 * [Tutorial - Illustrationen freistellen für Die Gartenlaube](Illustrationen_freistellen.md) - 23. April 2021
 * [Die Datenlaube feat. Wikisource und Wikicite – mit „Caviar“](wikisource_und_wikicite.md) - in Kürze
