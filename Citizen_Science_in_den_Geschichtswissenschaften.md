@@ -8,7 +8,7 @@ Was wir im Beitrag beschrieben haben, ist schlicht auch das, was wir eben einfac
 
 ### Stapel stapeln - Datenlaube-Chat
 
-<iframe src="Citizen Science in den Geschichtswissenschaften Chatprotokoll.html"  style="width: 98vw; height: 620px; border: none;"></iframe>
+<iframe src="Citizen Science in den Geschichtswissenschaften Chatprotokoll.html"  style="width: 100%; height: 620px; border: none;"></iframe>
 
 ### Let's hack and crack
 
