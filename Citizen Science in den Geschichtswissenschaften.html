@@ -1,0 +1,151 @@
+<h1 id="citizen-science-in-den-geschichtswissenschaften">Citizen Science
+in den Geschichtswissenschaften</h1>
+<p>Im Februar 2021 wurden wir von <a
+href="https://www.wikidata.org/wiki/Q111568731">Frau Dr. Hendrikje
+Clarius</a> eingeladen, “Die Datenlaube” in einem ausführlichen Beitrag
+als lebendiges bürger:innenwissenschaftliches Projekt mit
+geschichtswissenschaftlichen Bezügen in einem ausführlichen Beitrag für
+den geplanten Open Access Sammelband “<a
+href="https://doi.org/10.14220/9783737015714">Citizen Science in den
+Geschichtswissenschaften vorzustellen</a>” vorzustellen. Dieser
+Einladung haben wir gerne Folge geleistet und etwas mehr als zwei Jahre
+später ist der Beitrag noch <a
+href="https://doi.org/10.14220/9783737015714.163">abrufbar</a></p>
+<h2 id="einmal-mehr-offene-metadaten-für-offene-publikationen">Einmal
+mehr offene Metadaten für offene Publikationen</h2>
+<p>Was wir im Beitrag beschrieben haben, ist schlicht auch das, was wir
+eben einfach können. Beispielsweise bibliographische Einträge in
+Wikidata (semi-)maschinell erstellen und manuell-intellektuell
+kuratieren und korrigieren. Dieses Wissen und die damit verbundene
+intrinsische Motivation Wikidata bibliographisch zu befüllen, ist nicht
+nur auf die Gartenlaube beschränkt, sondern macht schlicht vor keiner
+Publikation halt. Da liegt es schlicht in der Natur der Sache, einen
+Sammelband mit Datenlaube-Inhalt zu “wikidatafizieren”. Gesagt,
+getan.</p>
+<h3 id="stapel-stapeln---datenlaube-chat">Stapel stapeln -
+Datenlaube-Chat</h3>
+<iframe src="Citizen Science in den Geschichtswissenschaften Chatprotokoll.html" style="width: 98vw; height: 620px; border: none;">
+</iframe>
+<h3 id="lets-hack-and-crack">Let’s hack and crack</h3>
+<p>Eigentlich also eine denkbar leichte Aufgabe. Auf der Übersichtsseite
+des Sammelbandes auf der Verlagswebsite
+<a href="https://www.vr-elibrary.de/doi/book/10.14220/9783737015714">doi:10.14220/9783737015714</a>
+ist alles drauf was für einen schnellen Import in Wikidata nötig ist:
+Titel, Autor:innenanmen, DOI, Seitenzahl. Publikationsdatum, Sprache,
+Lizenz sind für alle Werke gleich. Die Elemente befinden sich in schön
+mit Klassen ausgezeichneten HTML-Tags - einfaches Web-Scraping mit
+Python also. Doch leider blockiert die Verlagswebsite sehr gezielt
+Seitenaufrufe maschineller Art. Auch verschiedene Tricks den Header des
+Python-Requests möglichst wie einen Browser-Aufruf aussehen zu lassen,
+scheitern. Auch verschiedene <a
+href="https://www.zenrows.com/blog/bypass-cloudflare-python">Python-Bibliothken</a>,
+die vorgeben mit Cloudflare abgesicherte Websites einlesen zu können,
+kommen bei der Verlagswebsite nicht weiter.</p>
+<p>Da alle Informationen auf einer Seite gesammelt sind, schafft ein
+einfacher Trick Abhilfe: Öffnen des Quellcodes, kopieren in den Editor
+und lokal speichern. Mit der lokalen HTML-Datei klappt das Parsen des
+HTML-Codes und somit das Auslesen der genannten Informationen je
+Beitrag.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> urllib.request <span class="im">import</span> Request, urlopen</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> urllib.request</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> re</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>resultSet <span class="op">=</span> []</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#rootHtml = getHTML(&quot;https://www.vr-elibrary.de/doi/book/10.14220/9783737015714#d135550e1313&quot;)</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;SammelBand_CS.html&#39;</span>,encoding<span class="op">=</span><span class="st">&#39;UTF-8&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    contents <span class="op">=</span> f.read()</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    rootHtml <span class="op">=</span> BeautifulSoup(contents, <span class="st">&#39;html.parser&#39;</span>, from_encoding<span class="op">=</span><span class="st">&quot;utf-8&quot;</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(contents)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    chapters <span class="op">=</span> rootHtml.find_all(<span class="st">&quot;div&quot;</span>, {<span class="st">&#39;class&#39;</span>: <span class="st">&#39;issue-item&#39;</span>})</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="co">#print(chapters)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> chapter <span class="kw">in</span> chapters:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>        resultDet <span class="op">=</span> {}</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        <span class="co">#print(chapter)</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>        title <span class="op">=</span> chapter.find(<span class="st">&quot;h5&quot;</span>, {<span class="st">&quot;class&quot;</span>:<span class="st">&quot;issue-item__title&quot;</span>}).find(<span class="st">&quot;a&quot;</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        resultDet[<span class="st">&quot;doi&quot;</span>] <span class="op">=</span> (title[<span class="st">&quot;id&quot;</span>])</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>        resultDet[<span class="st">&quot;titel&quot;</span>] <span class="op">=</span> (title[<span class="st">&quot;title&quot;</span>])</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        pages <span class="op">=</span> chapter.find(<span class="st">&quot;div&quot;</span>, {<span class="st">&quot;class&quot;</span>:<span class="st">&quot;issue-item__pages&quot;</span>})</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>        resultDet[<span class="st">&quot;pages&quot;</span>] <span class="op">=</span>(pages.text)</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        resultAuthors <span class="op">=</span> []</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>            authors <span class="op">=</span> chapter.find(<span class="st">&quot;div&quot;</span>, {<span class="st">&quot;class&quot;</span>:<span class="st">&quot;issue-item__loa&quot;</span>}).find_all(<span class="st">&quot;span&quot;</span>)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>            <span class="co">#print(authors)</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> author <span class="kw">in</span> authors:</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>                 <span class="cf">if</span> author.text.strip() <span class="op">!=</span> <span class="st">&quot;,&quot;</span>:</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>                        resultAuthors.append(author.text)</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>            <span class="cf">pass</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        resultDet[<span class="st">&quot;authors&quot;</span>] <span class="op">=</span> resultAuthors</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>        <span class="co">#print(resultDet)</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>        resultSet.append(resultDet)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(json.dumps(resultSet))</span></code></pre></div>
+<p>Titel, DOI, Seitenbereich und Autor:innennamen werden in als JSON
+ausgegeben und können dann in OpenRefine eingelesen und
+weiterverarbeitet werden. Denn es wollen ja die Autor:innen
+disambiguiert und wenn möglich mit bestehenden Wikidata-Items verlinkt
+werden.</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ot">[</span><span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.front&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Titelei&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 1</span><span class="ch">\u2013</span><span class="st">4&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.toc&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Inhalt&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 5</span><span class="ch">\u2013</span><span class="st">6&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.7&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Citizen Science in den Geschichtswissenschaften aus methodischer       Perspektive: Zur Einf</span><span class="ch">\u00fc</span><span class="st">hrung&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 7</span><span class="ch">\u2013</span><span class="st">22&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Ren</span><span class="ch">\u00e9</span><span class="st"> Smolarski&quot;</span><span class="ot">,</span> <span class="st">&quot;Hendrikje Carius&quot;</span><span class="ot">,</span> <span class="st">&quot;Martin Prell&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.23&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Wie realistisch sind die Erwartungen an Citizen Science&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 23</span><span class="ch">\u2013</span><span class="st">40&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Kristin Oswald&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.41&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Vom Crowdsourcing zu Co-Design&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 41</span><span class="ch">\u2013</span><span class="st">68&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Tobias Hodel&quot;</span><span class="ot">,</span> <span class="st">&quot;Christa Schneider&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.69&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Ber</span><span class="ch">\u00fc</span><span class="st">cksichtigung von Data-Literacy-Kompetenzen&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 69</span><span class="ch">\u2013</span><span class="st">90&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Marina Lemaire&quot;</span><span class="ot">,</span> <span class="st">&quot;Yvonne Rommelfanger&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.91&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Heimatforscher, Citizen Science und/oder Digital History?&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 91</span><span class="ch">\u2013</span><span class="st">108&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Katrin Moeller&quot;</span><span class="ot">,</span> <span class="st">&quot;Moritz M</span><span class="ch">\u00fc</span><span class="st">ller&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.109&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Mehr als Zacken z</span><span class="ch">\u00e4</span><span class="st">hlen?&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 109</span><span class="ch">\u2013</span><span class="st">124&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Ren</span><span class="ch">\u00e9</span><span class="st"> Smolarski&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.125&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Vom Zettel zum Datensatz. Flurnamenforschung in Th</span><span class="ch">\u00fc</span><span class="st">ringen&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 125</span><span class="ch">\u2013</span><span class="st">142&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Barbara Aehnlich&quot;</span><span class="ot">,</span> <span class="st">&quot;Petra Kunze&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.143&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Kultur und Geschichte Sachsens offen und kollaborativ erforschen&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 143</span><span class="ch">\u2013</span><span class="st">162&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Martin Munke&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.163&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Die Datenlaube </span><span class="ch">\u2013</span><span class="st"> Citizen Science &amp; digitale historische Hilfswissenschaft&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 163</span><span class="ch">\u2013</span><span class="st">186&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Jens Bemme&quot;</span><span class="ot">,</span> <span class="st">&quot;Christian Erlinger&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.187&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Mythenbeschleuniger Oral History&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 187</span><span class="ch">\u2013</span><span class="st">204&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Elfi Vomberg&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.205&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Verderben viele K</span><span class="ch">\u00f6</span><span class="st">che den Brei?&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 205</span><span class="ch">\u2013</span><span class="st">222&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Michael Brauer&quot;</span><span class="ot">,</span> <span class="st">&quot;Marlene Ernst&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.223&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Crowdsourcing und Citizen Science mit Transkribus&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 223</span><span class="ch">\u2013</span><span class="st">240&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;G</span><span class="ch">\u00fc</span><span class="st">nter M</span><span class="ch">\u00fc</span><span class="st">hlberger&quot;</span><span class="ot">,</span> <span class="st">&quot;Gerhard Siegl&quot;</span><span class="ot">,</span> <span class="st">&quot;Kurt Scharr&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.241&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Keine Selbstverst</span><span class="ch">\u00e4</span><span class="st">ndlichkeit: Citizen Science auf der FactGrid                               Wikibase-Plattform&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 241</span><span class="ch">\u2013</span><span class="st">264&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[</span><span class="st">&quot;Olaf Simons&quot;</span><span class="ot">]</span><span class="fu">}</span><span class="ot">,</span> <span class="fu">{</span><span class="dt">&quot;doi&quot;</span><span class="fu">:</span> <span class="st">&quot;10.14220/9783737015714.265&quot;</span><span class="fu">,</span> <span class="dt">&quot;titel&quot;</span><span class="fu">:</span> <span class="st">&quot;Autorinnen- und Autorenverzeichnis&quot;</span><span class="fu">,</span> <span class="dt">&quot;pages&quot;</span><span class="fu">:</span> <span class="st">&quot;pp 265</span><span class="ch">\u2013</span><span class="st">269&quot;</span><span class="fu">,</span> <span class="dt">&quot;authors&quot;</span><span class="fu">:</span> <span class="ot">[]</span><span class="fu">}</span><span class="ot">]</span></span></code></pre></div>
+<h3 id="identifier-for-everyone">Identifier for everyone</h3>
+<p>Beim ersten Blick auf die Inhaltsübersicht des Sammelbandes fiel auf,
+dass nur die Herausgeber:innen mit ORCID identifizert sind. Das lag auf
+der Hand - die Wikidata-Items bergen das Potential das zu ändern. In der
+Tat konnten mit Ausnahme von zwei Autor:innen für alle (alle Autor:innen
+des Bandes besitzen nun eigene Wikidata-Items) Beitragenden ORCIDs
+identfiziert werden und wurden den Herausgeber:innen zur Korrektur an
+den Verlag gemeldet. Das ist #DataRoundTripping in Idealbesetzung (wenn
+es der Verlag nachzieht)</p>
+<h2 id="web-scraping-als-fundament-der-wikidatafizierung">Web-Scraping
+als Fundament der Wikidata*fizierung</h2>
+<p>Web-Scraping ist in vielen Fällen eine grundlegende Technik um
+Web-Inhalte auszulesen und für den Import in Wikidata oder auch andere
+Datenbanken aufzubereiten. Das Sperren von Websites für skriptbasierte
+Aufrufe dient natürlich auch der Vermeidung von Risiken insbesonder von
+DDoS-Attacken, für “gut gemeinte” Zwecke wie den hier beschriebenen, ist
+das natürlich fatal. Auf openbiblio.social habe ich daher einen kleinen
+Aufruf gestartet, wie denn mit solchen Schwierigkeiten umgegangen werden
+soll:</p>
+<p>
+<iframe src="https://openbiblio.social/@librerli/110536764637831880/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
+</iframe>
+<script src="https://openbiblio.social/embed.js" async="async"></script>
+</p>
+<p>
+<iframe src="https://openbiblio.social/@awinkler/110540311017565225/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
+</iframe>
+<script src="https://openbiblio.social/embed.js" async="async"></script>
+</p>
+<iframe src="https://openbiblio.social/@librerli/110540884986981483/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen">
+</iframe>
+<script src="https://openbiblio.social/embed.js" async="async"></script>
+<p>Der Hinweis von Alexander Winkler auf Crossref als alternative Quelle
+für die Datengrundlage ist für unser Beispiel hier natürlich ideal. Alle
+Daten der einzelnen Beiträge sind in Crossref bereits eingespielt und
+eine Abfrage aller lässt sich mit der Crossref-API und der ISBN bzw. der
+DOI für den Band leicht herstellen: <a
+href="https://api.crossref.org/works?query=9783847115717">https://api.crossref.org/works?query=9783847115717</a>.
+Es hätte keine weitere Bearbeitung in Python gebraucht, die API-Antwort
+könnte direkt als Datengrundlage in OpenRefine eingelesen werden.</p>
+<p>Auf das Problem mit Error 403 antworten V&amp;R-Verlagswebsite bin
+ich allerdings schon vorher gestossen. Für die <a
+href="https://zhbluzern.ch">ZHB Luzern</a> betreiben wir einen <a
+href="https://github.com/zhbluzern/LinkChecker">Link-Checker</a>, der
+überprüft, ob gewisse Open Access Titel nach wie vor verfügbar sind. Die
+Fehlerliste bleibt durch die V&amp;R-Website konstant befüllt, wie wohl
+kein Fehler vorliegt. Hierfür wäre noch eine gute Lösung gesucht.</p>
+<p>
+Christian Erlinger, 14. Juni 2023
+</p>
+<img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />   <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative
+Commons Namensnennung 4.0 International Lizenz</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+<script src="https://hypothes.is/embed.js" async></script>
+<p></a></p>
