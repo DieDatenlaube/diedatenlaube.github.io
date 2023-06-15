@@ -84,3 +84,4 @@ Auf das Problem mit HTTP-Error-403-Antworten der V&R-Verlagswebsite bin ich alle
 
 <p>Christian Erlinger, 14. Juni 2023</p>
 <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" />&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><script src="https://hypothes.is/embed.js" async></script></a>
+<p>Wikidata-Item dieses Artikels: <a href="https://www.wikidata.org/wiki/Q119499972">(Q119499972)</a></p>
