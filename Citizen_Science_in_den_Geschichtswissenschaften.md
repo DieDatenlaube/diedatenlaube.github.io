@@ -1,6 +1,6 @@
 # Citizen Science in den Geschichtswissenschaften
 
-Im Februar 2021 wurden wir von [Frau Dr. Hendrikje Clarius](https://www.wikidata.org/wiki/Q111568731) eingeladen, "Die Datenlaube" in einem ausführlichen Beitrag als lebendiges bürger:innenwissenschaftliches Projekt mit geschichtswissenschaftlichen Bezügen in einem ausführlichen Beitrag für den geplanten Open Access Sammelband "[Citizen Science in den Geschichtswissenschaften vorzustellen](https://doi.org/10.14220/9783737015714)" vorzustellen. Dieser Einladung haben wir gerne Folge geleistet und etwas mehr als zwei Jahre später ist der Beitrag nun [abrufbar](https://doi.org/10.14220/9783737015714.163).
+Im Februar 2021 wurden wir von [Frau Dr. Hendrikje Clarius](https://www.wikidata.org/wiki/Q111568731) eingeladen, "Die Datenlaube" in einem ausführlichen Beitrag als lebendiges bürger:innenwissenschaftliches Projekt mit geschichtswissenschaftlichen Bezügen in einem ausführlichen Beitrag für den geplanten Open Access Sammelband "[Citizen Science in den Geschichtswissenschaften](https://doi.org/10.14220/9783737015714)" vorzustellen. Dieser Einladung haben wir gerne Folge geleistet und etwas mehr als zwei Jahre später ist der Beitrag nun [abrufbar](https://doi.org/10.14220/9783737015714.163).
 
 ## Einmal mehr offene Metadaten für offene Publikationen
 
