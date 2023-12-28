@@ -6,6 +6,7 @@
 
 ### 2023
 * [Sammelband „Citizen Science in den Geschichtswissenschaften“](Citizen_Science_in_den_Geschichtswissenschaften.md) - 14. Juni 2023
+* [Die Datenlaube und das Jahr 2023](jahr_2023.md) - 29. Dezember 2023
 
 ### 2022
 * [Die Datenlaube und das Jahr 2022](jahr_2022.md) - 29. Dezember 2022
